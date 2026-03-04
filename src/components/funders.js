@@ -17,7 +17,7 @@ import { Heading } from '@/components/mdx'
 export const Funders = () => {
   const funders = React.useMemo(() => data, [])
   return (
-    <Box id={'funders'} as='section'>
+    <Box id={'funders'} as='section' scrollMarginTop={'100px'}>
       <Container maxW='container.lg'>
         <Heading as='h1' size='2xl'>
           Steun ons!

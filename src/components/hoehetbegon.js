@@ -13,7 +13,7 @@ import Head from 'next/head'
 
 export const HoeHetBegon = () => {
   return (
-    <Box id={'hoehetbegon'} as='section'>
+    <Box id={'hoehetbegon'} as='section' scrollMarginTop={'100px'}>
       <Container maxW='container.lg'>
         <Heading as='h1' size='2xl'>
           Hoe het begon

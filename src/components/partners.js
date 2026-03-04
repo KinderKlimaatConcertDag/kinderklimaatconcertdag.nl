@@ -17,7 +17,7 @@ import { Heading } from '@/components/mdx'
 export const Partners = () => {
   const partners = React.useMemo(() => data, [])
   return (
-    <Box id={'partners'} as='section'>
+    <Box id={'partners'} as='section' scrollMarginTop={'100px'}>
       <Container maxW='container.lg'>
         <Heading as='h1' size='2xl'>
           Partners

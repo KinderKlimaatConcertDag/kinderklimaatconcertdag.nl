@@ -10,7 +10,7 @@ import { Heading } from '@/components/mdx'
 
 export const Concert = () => {
   return (
-    <Box id={'concert'} as='section'>
+    <Box id={'concert'} as='section' scrollMarginTop={'100px'}>
       <Container maxW='container.lg'>
         <Heading as='h1' size='2xl'>
           Editie 2026
