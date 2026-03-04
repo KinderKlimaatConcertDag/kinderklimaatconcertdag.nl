@@ -36,10 +36,7 @@ export const Header = () => {
         justify={'center'}
         css={{
           backdropFilter: 'saturate(180%) blur(5px)',
-          backgroundColor: useColorModeValue(
-            'rgba(255, 255, 255, 0.8)',
-            'rgba(26, 32, 44, 0.8)',
-          ),
+          backgroundColor: '#eec216',
         }}
       >
         <Container as={Flex} maxW={'container.lg'} align={'center'}>
@@ -73,6 +70,7 @@ export const Header = () => {
               href={'/'}
               direction={'row'}
               fontFamily={'heading'}
+              py={3}
               alignItems={'center'}
               spacing={{ base: 2, sm: 4 }}
             >
