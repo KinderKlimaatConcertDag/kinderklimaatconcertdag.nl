@@ -46,7 +46,6 @@ export const Layout = ({
           sizes='96x96'
           href='/assets/logo_no-text.png'
         />
-        <link rel='icon' type='image/svg+xml' href='/favicon.svg' />
         <link rel='icon' type='image/png' href='/favicon.png' />
 
         <title>{title}</title>
