@@ -25,10 +25,10 @@ export const DesktopNav = ({ navItems, ...props }) => {
                 fontSize={'sm'}
                 fontFamily={'heading'}
                 fontWeight={'bold'}
-                color={'black'}
+                color={useColorModeValue('black', 'white')}
                 _hover={{
                   textDecoration: 'none',
-                  color: 'black',
+                  color: useColorModeValue('black', 'white'),
                 }}
               >
                 {navItem.label}
@@ -73,10 +73,10 @@ const DesktopSubNav = ({ label, href, subLabel }) => {
         <Box>
           <Text
             transition={'all .3s ease'}
-            _groupHover={{ color: 'black' }}
+            _groupHover={{ color: useColorModeValue('black', 'white') }}
             fontFamily={'heading'}
             fontWeight={500}
-            color={'black'}
+            color={useColorModeValue('black', 'white')}
           >
             {label}
           </Text>
@@ -91,7 +91,7 @@ const DesktopSubNav = ({ label, href, subLabel }) => {
           align={'center'}
           flex={1}
         >
-          <Icon color={'blue.400'} w={5} h={5} as={ChevronRightIcon} />
+          <Icon color={useColorModeValue('black', 'white')} w={5} h={5} as={ChevronRightIcon} />
         </Flex>
       </Stack>
     </Link>
