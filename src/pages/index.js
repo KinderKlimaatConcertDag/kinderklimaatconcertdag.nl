@@ -9,7 +9,7 @@ export default function IndexPage() {
       url={`/`}
       title={'Kinder Klimaat Concert Dag'}
       card={
-        'assets/logo_no-text.png'
+        '/assets/KKCD_Vignet-Blaadje_rgb_blauw.png'
       }
       // enableBanner
     >

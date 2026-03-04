@@ -76,9 +76,9 @@ export const Header = () => {
               spacing={{ base: 2, sm: 4 }}
             >
               <ColorModeImage
-                w={48}
-                lightSrc={'/assets/logo.png'}
-                darkSrc={'/assets/logo_inverted.png'}
+                w={20}
+                lightSrc={'/assets/KKCD_Logo_rgb_blauw.png'}
+                darkSrc={'/assets/KKCD_Logo_diap.png'}
                 alt={'KKCD logo'}
               />
             </Stack>

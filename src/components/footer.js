@@ -62,8 +62,8 @@ export const Footer = () => {
             <Box>
               <ColorModeImage
                 w={32}
-                lightSrc={'/assets/logo.png'}
-                darkSrc={'/assets/logo_inverted.png'}
+                lightSrc={'/assets/KKCD_Logo_rgb_blauw.png'}
+                darkSrc={'/assets/KKCD_Logo_diap.png'}
                 alt={'KinderKlimaatConcertDag logo'}
               />
             </Box>
