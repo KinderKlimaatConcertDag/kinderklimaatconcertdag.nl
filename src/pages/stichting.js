@@ -10,7 +10,7 @@ const UtrechtTeam = () => {
       title={'Bestuur'}
       url={`/bestuur`}
     >
-      <Box as='section' py={20}>
+      <Box as='section' py={40}>
         <Container maxW='container.lg'>
           <Heading as='h1' size='2xl' textAlign={'center'}>
             De Stichting Kinder Klimaat Concert Dag

@@ -1,7 +1,4 @@
 import { Layout } from '@/components/layout'
-import { Image, Link } from '@/components/mdx'
-import { TeamMember } from '@/components/team-member'
-import { OprichterTeamMembers, BestuurTeamMembers, OverigTeamMembers } from '@/data/team-members'
 import { Box, Container, Heading, SimpleGrid, Text } from '@chakra-ui/react'
 
 
@@ -12,7 +9,7 @@ const Oprichters = () => {
       url={`/oprichters`}
     >
 
-    <Box as='section' py={20}>
+    <Box as='section' py={40}>
       <Container maxW='container.lg'>
         <Heading as='h1' size='2xl'>
           De oprichters
