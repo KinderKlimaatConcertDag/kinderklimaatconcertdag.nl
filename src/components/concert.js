@@ -6,7 +6,7 @@ import {
 } from '@chakra-ui/react'
 import React from 'react'
 
-import { Heading } from '@/components/mdx'
+import { Heading, Image } from '@/components/mdx'
 
 export const Concert = () => {
   return (
@@ -15,24 +15,43 @@ export const Concert = () => {
         <Heading as='h1' size='2xl'>
           Editie 2026
         </Heading>
-        <Text fontSize={'lg'} pb={5} whiteSpace={'pre-line'}>
-          {`De eerste editie van de Kinder Klimaat Concert Dag vindt plaats in Utrecht op zondag 27 september 2026 in TivoliVredenburg.
-
-Tijdens de avondvoorstelling  “Behoud onze seizoenen!” zorgen muziek, dans en kunst gemaakt door kinderen en jongeren voor een bruisende, ontroerende en virtuoze avond. Je wordt meegenomen van de bittere kou in de winter naar de eerste zonnige lentedag, en van een zwoele zomeravond naar de wervelende herfstwind. Diverse stijlen wisselen elkaar af.
-
-LOCATIE: Hertz zaal Vredenburg, Utrecht
-AANVANG: NTB
-
-Na de voorstelling presenteren middelbare scholieren uit de regio Utrecht hun eigen onderzoeken over het klimaat.
-LOCATIE: Punt foyer TivoliVredenburg, Utrecht
-AANVANG: NTB
-
-De randprogrammering komt tot stand in samenwerking met de Universiteit Utrecht.
-
-Kaarten: Koop je kaartjes via de kassa van TivoliVredenburg
-
-Voor de voorstelling kunnen kinderen hùn vragen over het klimaat stellen aan een klimaat panel van wetenschappers van de Universiteit Utrecht.`}
+        <Text>
+          <Text as='span' textStyle={'paragraphBlock'}>
+            De eerste editie van de Kinder Klimaat Concert Dag vindt plaats in Utrecht op zondag 27 september 2026 in TivoliVredenburg.
+          </Text>
+          <Text as='span' textStyle={'paragraphBlock'}>
+            Tijdens de avondvoorstelling  “Behoud onze seizoenen!” zorgen muziek, dans en kunst gemaakt door kinderen en jongeren voor een bruisende, ontroerende en virtuoze avond. Je wordt meegenomen van de bittere kou in de winter naar de eerste zonnige lentedag, en van een zwoele zomeravond naar de wervelende herfstwind. Diverse stijlen wisselen elkaar af.
+          </Text>
+          <Text as='span' textStyle={'paragraphBlock'}>
+            LOCATIE: Hertz zaal Vredenburg, Utrecht | AANVANG: NTB
+          </Text>
+          <Text as='span' textStyle={'paragraphBlock'}>
+            Na de voorstelling presenteren middelbare scholieren uit de regio Utrecht hun eigen onderzoeken over het klimaat.
+          </Text>
+          <Text as='span' textStyle={'paragraphBlock'}>
+            LOCATIE: Punt foyer TivoliVredenburg, Utrecht | AANVANG: NTB
+          </Text>
+          <Text as='span' textStyle={'paragraphBlock'}>
+            De randprogrammering komt tot stand in samenwerking met de Universiteit Utrecht.
+          </Text>
+          <Text as='span' textStyle={'paragraphBlock'}>
+            Kaarten: Koop je kaartjes via de kassa van TivoliVredenburg.
+          </Text>
+          <Text as='span' textStyle={'paragraphBlock'}>
+            Voor de voorstelling kunnen kinderen hùn vragen over het klimaat stellen aan een klimaat panel van wetenschappers van de Universiteit Utrecht.
+          </Text>
         </Text>
+
+        <Box mt={8} w='100%'>
+          <Image
+            src='/posters/KKCD_Posters_A4_10.jpg'
+            alt='Kinder Klimaat Concert Dag poster'
+            w='100%'
+            maxW='100%'
+            borderRadius='lg'
+            boxShadow='md'
+          />
+        </Box>
 
       </Container>
     </Box>

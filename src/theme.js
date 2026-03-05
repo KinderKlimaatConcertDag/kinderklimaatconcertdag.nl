@@ -18,6 +18,20 @@ export const customTheme = extendTheme(
     colors: { ...theme.colors, brand: theme.colors.blue },
     config: config,
     fonts: fonts,
+    components: {
+      Text: {
+        baseStyle: {
+          fontSize: 'lg',
+          lineHeight: 'tall',
+        },
+      },
+    },
+    textStyles: {
+      paragraphBlock: {
+        display: 'block',
+        mb: 4,
+      },
+    },
     styles: {
       global: {
         '@font-face': {
