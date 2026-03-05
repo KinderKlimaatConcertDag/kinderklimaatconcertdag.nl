@@ -34,13 +34,22 @@ export const customTheme = extendTheme(
     },
     styles: {
       global: {
-        '@font-face': {
-          fontFamily: 'Champ Black',
-          src: "url('/fonts/Champ-Black.otf') format('opentype')",
-          fontWeight: '900',
-          fontStyle: 'normal',
-          fontDisplay: 'swap',
-        },
+        '@font-face': [
+          {
+            fontFamily: 'Champ Black',
+            src: "url('/fonts/Champ-Black.otf') format('opentype')",
+            fontWeight: '900',
+            fontStyle: 'normal',
+            fontDisplay: 'swap',
+          },
+          {
+            fontFamily: 'Neue Haas Grotesk',
+            src: "url('/fonts/NeueHaasDisplayRoman.ttf') format('truetype')",
+            fontWeight: '900',
+            fontStyle: 'normal',
+            fontDisplay: 'swap',
+          },
+        ],
         html: { scrollBehavior: 'smooth' },
       },
     },
