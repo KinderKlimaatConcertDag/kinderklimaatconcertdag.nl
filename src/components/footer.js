@@ -40,7 +40,7 @@ const SocialButton = ({ children, label, href }) => {
 
 const ListHeader = ({ children }) => {
   return (
-    <Text fontWeight={'bold'} my={2}>
+    <Text fontFamily={'heading'} fontWeight={'bold'} my={2}>
       {children}
     </Text>
   )
@@ -69,7 +69,7 @@ export const Footer = () => {
             </Box>
 
             <Text fontSize={'sm'}>
-              © {new Date().getFullYear()}, KinderKlimaatConcertDag. Apache 2.0
+              © Kinder Klimaat Concert Dag, {new Date().getFullYear()}. Apache 2.0
               Licensed.
             </Text>
           </Stack>
