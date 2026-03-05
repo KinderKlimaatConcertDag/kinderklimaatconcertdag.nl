@@ -1,5 +1,5 @@
 import { Layout } from '@/components/layout'
-import { Box, Container, Heading, SimpleGrid, Text } from '@chakra-ui/react'
+import { Box, Container, Heading, Image, SimpleGrid, Text } from '@chakra-ui/react'
 
 
 const Oprichters = () => {
@@ -17,7 +17,20 @@ const Oprichters = () => {
         <Heading as='h2' size='xl' pb={8} pt={4}>
             Luna van Leeuwen
         </Heading>
-        <Text py={5}>
+        <Box py={5} position='relative'>
+          <Image
+            src='/team/LunavanLeeuwen.jpeg'
+            alt='Luna van Leeuwen'
+            position={{ base: 'static', md: 'absolute' }}
+            top={0}
+            right={0}
+            w={{ base: '100%', md: '220px' }}
+            maxW={{ base: '320px', md: '220px' }}
+            mb={{ base: 4, md: 0 }}
+            borderRadius='lg'
+            boxShadow='md'
+          />
+          <Text pr={{ base: 0, md: '240px' }}>
           <Text as='span' textStyle={'paragraphBlock'}>
             De Nederlandse violiste Luna van Leeuwen wordt al vanaf jonge leeftijd geroemd om haar bijzondere zeggingskracht.
           </Text>
@@ -39,12 +52,26 @@ const Oprichters = () => {
           <Text as='span' textStyle={'paragraphBlock'}>
             Luna speelt op een Johannes Cuypers uit 1801 en woont in Berlijn.
           </Text>
-        </Text>
+          </Text>
+        </Box>
 
         <Heading as='h2' size='xl' pb={8} pt={4}>
             Donna van Leeuwen
         </Heading>
-        <Text py={5}>
+        <Box py={5} position='relative'>
+          <Image
+            src='/team/DonnaVanLeeuwen.jpeg'
+            alt='Donna van Leeuwen'
+            position={{ base: 'static', md: 'absolute' }}
+            top={0}
+            right={0}
+            w={{ base: '100%', md: '220px' }}
+            maxW={{ base: '320px', md: '220px' }}
+            mb={{ base: 4, md: 0 }}
+            borderRadius='lg'
+            boxShadow='md'
+          />
+          <Text pr={{ base: 0, md: '240px' }}>
           <Text as='span' textStyle={'paragraphBlock'}>
             Donna's uitvoering van Bach's cello suite tijdens de Nationale Finale van het Prinses Christina Concours werd door juryvoorzitter Michel Dispa beschreven als “gezond, modern cellospel met een uitgebalanceerd stijlbesef.”
           </Text>
@@ -57,7 +84,8 @@ const Oprichters = () => {
           <Text as='span' textStyle={'paragraphBlock'}>
             Donna zet zich in voor het klimaat als initiatiefnemer, samen met haar zusje Luna (viool), van de Kinder Klimaat Concert Dag, waar kinderen en jongeren via muziek op een positieve manier aandacht vragen voor het klimaat. De eerste editie zal plaatsvinden op 27 september 2026 in TivoliVredenburg.
           </Text>
-        </Text>
+          </Text>
+        </Box>
 
       </Container>
     </Box>
