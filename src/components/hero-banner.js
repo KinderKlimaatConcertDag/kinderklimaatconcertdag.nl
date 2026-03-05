@@ -37,7 +37,7 @@ export const HeroBanner = () => {
         </Stack>
         <Text py={5}>
           <Text as='span' textStyle={'paragraphBlock'}>
-            De Kinder Klimaat Concert dag is een nationale dag waarop het perspectief van kinderen en jongeren op klimaatverandering centraal staat. De kracht van kinderen is dat ze een open blik hebben en eerlijke vragen stellen. Juist door hun kwetsbaarheid kunnen ze mensen aan het denken zetten.
+            De Kinder Klimaat Concert Dag is een nationale dag waarop het perspectief van kinderen en jongeren op klimaatverandering centraal staat. De kracht van kinderen is dat ze een open blik hebben en eerlijke vragen stellen. Juist door hun kwetsbaarheid kunnen ze mensen aan het denken zetten.
           </Text>
           <Text as='span' textStyle={'paragraphBlock'}>
             De kracht die kinderen hebben als ze zich uiten in muziek en kunst is uniek. De Kinder Klimaat Concert Dag geeft 1 dag in het jaar kinderen en jongeren een platform om op hun manier op te komen voor hun toekomst, door muziek te maken, te tekenen, te dansen en te dichten.
