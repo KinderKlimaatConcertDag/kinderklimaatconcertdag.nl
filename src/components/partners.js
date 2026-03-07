@@ -29,7 +29,10 @@ export const Partners = () => {
           </Text> */}
 
           <Grid
-            templateColumns={`repeat(${partners.length}, minmax(auto, max-content))`}
+            templateColumns={{
+              base: '1fr',
+              md: `repeat(${partners.length}, minmax(auto, max-content))`,
+            }}
             gap={6}
             my={4}
             justifyContent='center'
@@ -42,10 +45,12 @@ export const Partners = () => {
                   display='flex'
                   alignItems='center'
                   justifyContent='center'
-                  borderRight={
-                    index < partners.length - 1 ? '1px solid #6f73b2' : 'none'
-                  }
-                  pr={4}
+                  borderRight={{
+                    base: 'none',
+                    md: index < partners.length - 1 ? '1px solid #6f73b2' : 'none',
+                  }}
+                  pr={{ base: 0, md: 4 }}
+                  pb={{ base: 4, md: 0 }}
                 >
                   <ColorModeImage
                     lightSrc={partner.logo_light}
