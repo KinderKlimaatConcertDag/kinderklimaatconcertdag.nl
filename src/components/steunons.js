@@ -11,7 +11,7 @@ export const SteunOns = () => {
   return (
     <Box id={'steunons'} as='section' scrollMarginTop={'100px'}>
       <Container maxW='container.lg'>
-        <Heading as='h1' size='2xl'  textAlign={'center'}>
+        <Heading as='h1' size='2xl'  textAlign={'center'} color='#cd5b1c'>
           Steun ons!
         </Heading>
 

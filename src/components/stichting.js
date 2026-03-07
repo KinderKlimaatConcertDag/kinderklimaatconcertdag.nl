@@ -16,8 +16,8 @@ import Head from 'next/head'
 
 export const Stichting = () => {
   return (
-    <Box as='section' py={40}>
-      <Container maxW='container.lg'>
+    <Box id={'stichting'} as='section' scrollMarginTop={'100px'} bg='#62afa8'>
+      <Container maxW='container.lg'  pt={10} pb={10}>
         <Heading as='h1' size='2xl' textAlign={'center'}>
           De Stichting Kinder Klimaat Concert Dag
         </Heading>

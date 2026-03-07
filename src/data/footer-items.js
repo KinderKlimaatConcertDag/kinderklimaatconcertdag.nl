@@ -17,12 +17,12 @@ export const footerItems = {
 
   stichting: [
     {
-      label: 'Stichting',
-      href: 'stichting',
+      label: 'Team',
+      href: '/overons#team',
     },
     {
-      label: 'Team',
-      href: 'team',
+      label: 'Stichting',
+      href: '/overons#stichting',
     },
     {
       label: 'Steun ons',

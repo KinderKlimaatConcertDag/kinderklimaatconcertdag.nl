@@ -1,9 +1,5 @@
-import { Team, SteunOns } from '@/components'
-import { Contact } from '@/components/contact'
-
+import { Team, SteunOns, Contact, Stichting } from '@/components'
 import { Layout } from '@/components/layout'
-import { Media } from '@/components/media'
-import { Stichting } from '@/components/stichting'
 
 export default function OverOns() {
   return (
