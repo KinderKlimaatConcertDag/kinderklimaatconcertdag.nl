@@ -1,4 +1,4 @@
-import { Concert, HeroBanner, Funders, HoeHetBegon, Partners } from '@/components'
+import { Concert, HeroBanner, HoeHetBegon, Partners } from '@/components'
 
 import { Layout } from '@/components/layout'
 import { Media } from '@/components/media'
@@ -18,7 +18,6 @@ export default function IndexPage() {
       <HoeHetBegon />
       {/* <Media /> */}
       <Partners />
-      {/* <Funders /> */}
     </Layout>
   )
 }

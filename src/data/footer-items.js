@@ -26,11 +26,11 @@ export const footerItems = {
     },
     {
       label: 'Steun ons',
-      href: '/#funders',
+      href: '/overons#steunons',
     },
     {
       label: 'Contact',
-      href: 'contact',
+      href: '/overons#contact',
     },
   ],
 }

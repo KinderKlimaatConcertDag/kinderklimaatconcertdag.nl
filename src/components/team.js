@@ -1,36 +1,43 @@
-import { Layout } from '@/components/layout'
-import { Box, Container, Heading, Image, SimpleGrid, Text } from '@chakra-ui/react'
+import {
+  Box,
+  Container,
+  Image,
+  Text,
+  Link,
+  Grid,
+  GridItem,
+  Tooltip,
+} from '@chakra-ui/react'
+import { ColorModeImage } from '@/components/ColorModeImage'
+import React from 'react'
 
+import { Heading } from '@/components/mdx'
 
-const Oprichters = () => {
+export const Team = () => {
   return (
-    <Layout
-      title={'Oprichters'}
-      url={`/oprichters`}
-    >
-
     <Box as='section' py={40}>
       <Container maxW='container.lg'>
-        <Heading as='h1' size='2xl'>
+        <Heading as='h1' size='2xl' textAlign={'center'}>
+          Team
+        </Heading>
+        <Heading as='h1' size='xl' textAlign={'center'}>
           De oprichters
         </Heading>
-        <Heading as='h2' size='xl' pb={8} pt={4} id='luna-van-leeuwen'>
+        <Box py={5}>
+          <Box display='flex' flexDirection={{ base: 'column', md: 'row-reverse' }} alignItems='flex-start' gap={6}>
+            <Image
+              src='/team/LunavanLeeuwen.jpeg'
+              alt='Luna van Leeuwen'
+              w={{ base: '100%', md: '220px' }}
+              maxW={{ base: '320px', md: '220px' }}
+              borderRadius='lg'
+              boxShadow='md'
+              flexShrink={0}
+            />
+            <Box>
+          <Heading as='h2' size='xl' pb={4} pt={0} mt={0} id='luna-van-leeuwen'>
             Luna van Leeuwen
-        </Heading>
-        <Box py={5} position='relative'>
-          <Image
-            src='/team/LunavanLeeuwen.jpeg'
-            alt='Luna van Leeuwen'
-            position={{ base: 'static', md: 'absolute' }}
-            top={0}
-            right={0}
-            w={{ base: '100%', md: '220px' }}
-            maxW={{ base: '320px', md: '220px' }}
-            mb={{ base: 4, md: 0 }}
-            borderRadius='lg'
-            boxShadow='md'
-          />
-          <Text pr={{ base: 0, md: '240px' }}>
+          </Heading>
           <Text as='span' textStyle={'paragraphBlock'}>
             De Nederlandse violiste Luna van Leeuwen wordt al vanaf jonge leeftijd geroemd om haar bijzondere zeggingskracht.
           </Text>
@@ -52,26 +59,25 @@ const Oprichters = () => {
           <Text as='span' textStyle={'paragraphBlock'}>
             Luna speelt op een Johannes Cuypers uit 1801 en woont in Berlijn.
           </Text>
-          </Text>
+            </Box>
+          </Box>
         </Box>
 
-        <Heading as='h2' size='xl' pb={8} pt={4}>
+        <Box py={5}>
+          <Box display='flex' flexDirection={{ base: 'column', md: 'row-reverse' }} alignItems='flex-start' gap={6}>
+            <Image
+              src='/team/DonnavanLeeuwen.jpeg'
+              alt='Donna van Leeuwen'
+              w={{ base: '100%', md: '220px' }}
+              maxW={{ base: '320px', md: '220px' }}
+              borderRadius='lg'
+              boxShadow='md'
+              flexShrink={0}
+            />
+            <Box>
+          <Heading as='h2' size='xl' pb={4} pt={0} mt={0} id='donna-van-leeuwen'>
             Donna van Leeuwen
-        </Heading>
-        <Box py={5} position='relative'>
-          <Image
-            src='/team/DonnavanLeeuwen.jpeg'
-            alt='Donna van Leeuwen'
-            position={{ base: 'static', md: 'absolute' }}
-            top={0}
-            right={0}
-            w={{ base: '100%', md: '220px' }}
-            maxW={{ base: '320px', md: '220px' }}
-            mb={{ base: 4, md: 0 }}
-            borderRadius='lg'
-            boxShadow='md'
-          />
-          <Text pr={{ base: 0, md: '240px' }}>
+          </Heading>
           <Text as='span' textStyle={'paragraphBlock'}>
             Donna's uitvoering van Bach's cello suite tijdens de Nationale Finale van het Prinses Christina Concours werd door juryvoorzitter Michel Dispa beschreven als “gezond, modern cellospel met een uitgebalanceerd stijlbesef.”
           </Text>
@@ -84,14 +90,66 @@ const Oprichters = () => {
           <Text as='span' textStyle={'paragraphBlock'}>
             Donna zet zich in voor het klimaat als initiatiefnemer, samen met haar zus Luna (viool), van de Kinder Klimaat Concert Dag, waar kinderen en jongeren via muziek op een positieve manier aandacht vragen voor het klimaat. De eerste editie zal plaatsvinden op 27 september 2026 in TivoliVredenburg.
           </Text>
-          </Text>
+            </Box>
+          </Box>
         </Box>
 
+        <Heading as='h1' size='xl' textAlign={'center'}>
+          Het bestuur
+        </Heading>
+        <Heading as='h2' size='xl' id='henk-van-de-meulen'>
+            Henk van de Meulen
+        </Heading>
+        <Text as='span' textStyle={'paragraphBlock'}>
+          Henk is voorzitter van de Stichting Kinder Klimaat Concert Dag.
+        </Text>
+
+        <Heading as='h2' size='xl' id='erik-de-ruijter-van-steveninck'>
+            Erik de Ruijter van Steveninck
+        </Heading>
+        <Text as='span' textStyle={'paragraphBlock'}>
+          Erik is secretaris van de Stichting Kinder Klimaat Concert Dag.
+        </Text>
+
+        <Heading as='h2' size='xl' id='atze-sytsma'>
+            Atze Sytsma
+        </Heading>
+        <Text as='span' textStyle={'paragraphBlock'}>
+          Atze is penningmeester van de Stichting Kinder Klimaat Concert Dag.
+        </Text>
+        <Heading as='h2' size='xl' id='ilonka-kolthof'>
+            Ilonka Kolthof
+        </Heading>
+        <Text as='span' textStyle={'paragraphBlock'}>
+          Ilonka is bestuurslid van de Stichting Kinder Klimaat Concert Dag.
+        </Text>
+
+        <Heading as='h1' size='xl' textAlign={'center'}>
+          Adviseurs
+        </Heading>
+        <Box py={5}>
+          <Box display='flex' flexDirection={{ base: 'column', md: 'row-reverse' }} alignItems='flex-start' gap={6}>
+            <Image
+              src='/team/ErikvanSebille.png'
+              alt='Erik van Sebille'
+              w={{ base: '100%', md: '220px' }}
+              maxW={{ base: '320px', md: '220px' }}
+              borderRadius='lg'
+              boxShadow='md'
+              flexShrink={0}
+            />
+            <Box>
+              <Heading as='h2' size='xl' pt={0} mt={0} id='erik-van-sebille'>
+                  Erik van Sebille
+              </Heading>
+              <Text as='span' textStyle={'paragraphBlock'}>
+                Erik is hoogleraar oceanografie en wetenschapscommunicatie aan de Universiteit Utrecht. Hij is gespecialiseerd in oceaanstromingen en de verspreiding van microplastics in de oceanen. Hij heeft een grote passie voor het klimaat en is een veelgevraagd spreker over klimaatverandering en de rol van de oceanen.
+              </Text>
+            </Box>
+          </Box>
+        </Box>
       </Container>
     </Box>
 
-    </Layout>
   )
 }
-
-export default Oprichters
