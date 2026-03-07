@@ -26,7 +26,7 @@ export const HoeHetBegon = () => {
             Van keukentafel idee tot de eerste nationale Kinder Klimaat Concert Dag.
           </Text>
           <Text as='span' textStyle={'paragraphBlock'}>
-            Al vanaf heel jonge leeftijd merkten wij, <Link as={NextLink} href='/oprichters#luna-van-leeuwen'>Luna</Link> (viool) en Donna (cello), dat we tijdens concerten die wij gaven mensen konden ontroeren.
+            Al vanaf heel jonge leeftijd merkten wij, <Link as={NextLink} href='/team#luna-van-leeuwen'>Luna</Link> (viool) en <Link as={NextLink} href='/team#donna-van-leeuwen'>Donna</Link> (cello), dat we tijdens concerten die wij gaven mensen konden ontroeren.
           </Text>
           <Text as='span' textStyle={'paragraphBlock'}>
             We vroegen ons af: kunnen we deze kracht niet inzetten om iets te bereiken wat ons al jaren bezighoudt: <Text as='span' fontWeight='bold'>klimaatverandering</Text>.

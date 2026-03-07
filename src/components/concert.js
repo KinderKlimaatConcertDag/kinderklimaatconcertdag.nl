@@ -46,8 +46,8 @@ export const Concert = () => {
             borderRadius='lg'
             boxShadow='md'
           />
-          <Text>
-          <Text pr={{ base: 0, md: '530px' }}>
+          <Box>
+          <Box pr={{ base: 0, md: '530px' }}>
           <Text as='span' textStyle={'paragraphBlock'}>
             Tijdens de avondvoorstelling  “Behoud onze seizoenen!” zorgen muziek, dans en kunst gemaakt door kinderen en jongeren voor een bruisende, ontroerende en virtuoze avond. Je wordt meegenomen van de bittere kou in de winter naar de eerste zonnige lentedag, en van een zwoele zomeravond naar de wervelende herfstwind. Diverse stijlen wisselen elkaar af.
           </Text>
@@ -78,8 +78,8 @@ export const Concert = () => {
           <Text as='span' textStyle={'paragraphBlock'}>
             Voor de voorstelling kunnen kinderen hùn vragen over het klimaat stellen aan een klimaat panel van wetenschappers van de Universiteit Utrecht.
           </Text>
-        </Text>
-        </Text>
+        </Box>
+        </Box>
         </Box>
 
       </Container>
