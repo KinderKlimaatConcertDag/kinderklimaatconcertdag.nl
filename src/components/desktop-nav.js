@@ -30,8 +30,10 @@ export const DesktopNav = ({ navItems, ...props }) => {
                 color={useColorModeValue('black', 'white')}
                 _hover={{
                   textDecoration: 'none',
+                  bg: useColorModeValue('blackAlpha.100', 'whiteAlpha.200'),
                   color: useColorModeValue('black', 'white'),
                 }}
+                borderRadius='md'
               >
                 {navItem.label}
               </Link>

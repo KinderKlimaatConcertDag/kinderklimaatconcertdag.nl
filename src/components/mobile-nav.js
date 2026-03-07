@@ -25,12 +25,15 @@ const MobileNavItem = ({ href, children, label }) => {
     <Stack spacing={4} onClick={handleToggle}>
       <Flex
         py={2}
+        px={2}
         as={Link}
         href={href ?? '/#'}
         justify={'space-between'}
         align={'center'}
+        borderRadius='md'
         _hover={{
           textDecoration: 'none',
+          bg: useColorModeValue('blackAlpha.100', 'whiteAlpha.200'),
         }}
       >
         <Text
@@ -69,9 +72,15 @@ const MobileNavItem = ({ href, children, label }) => {
                 key={index}
                 href={child.href ?? '#'}
                 py={2}
+                px={2}
+                borderRadius='md'
                 fontFamily={'heading'}
                 whiteSpace={'nowrap'}
                 color={useColorModeValue('black', 'white')}
+                _hover={{
+                  textDecoration: 'none',
+                  bg: useColorModeValue('blackAlpha.100', 'whiteAlpha.200'),
+                }}
               >
                 {child.label}
               </Link>
