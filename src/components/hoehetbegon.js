@@ -26,7 +26,7 @@ export const HoeHetBegon = () => {
             Van keukentafel idee tot de eerste nationale Kinder Klimaat Concert Dag.
           </Text>
           <Text as='span' textStyle={'paragraphBlock'}>
-            Al vanaf heel jonge leeftijd merkten wij, <Link as={NextLink} href='/team#luna-van-leeuwen'>Luna</Link> (viool) en <Link as={NextLink} href='/team#donna-van-leeuwen'>Donna</Link> (cello), dat we tijdens concerten die wij gaven mensen konden ontroeren.
+            Al vanaf heel jonge leeftijd merkten wij, <Link as={NextLink} href='/overons#luna-van-leeuwen'>Luna</Link> (viool) en <Link as={NextLink} href='/overons#donna-van-leeuwen'>Donna</Link> (cello), dat we tijdens concerten die wij gaven mensen konden ontroeren.
           </Text>
           <Text as='span' textStyle={'paragraphBlock'}>
             We vroegen ons af: kunnen we deze kracht niet inzetten om iets te bereiken wat ons al jaren bezighoudt: <Text as='span' fontWeight='bold'>klimaatverandering</Text>.
@@ -49,11 +49,11 @@ export const HoeHetBegon = () => {
           </ListItem>
           <ListItem>
             <ListIcon as={CheckCircleIcon} color='#62afa8' />
-            14 mei 2025: Oprichting van de Stichting Kinder Klimaat Concert Dag.
+            14 mei 2025: Oprichting van de <Link as={NextLink} href='/overons#stichting'>Stichting Kinder Klimaat Concert Dag</Link>.
           </ListItem>
           <ListItem>
             <ListIcon as={CheckCircleIcon} color='#62afa8' />
-            Najaar 2025: Crowdfunding bij platform Voordekunst wordt een groot succes.
+            Najaar 2025: <Link isExternal href='https://www.voordekunst.nl/projecten/20033-kinder-klimaat-concert-dag'>Crowdfunding bij platform Voordekunst</Link> wordt een groot succes.
           </ListItem>
           <ListItem>
             <ListIcon as={CheckCircleIcon} color='#62afa8' />
@@ -65,19 +65,9 @@ export const HoeHetBegon = () => {
           </ListItem>
           <ListItem>
             <ListIcon as={CheckCircleIcon} color='#62afa8' />
-            Januari 2026: Nominatie voor de Young Impact Award 2026 in de categorie Klimaat.
+            Januari 2026: Nominatie voor de <Link isExternal href='https://youngimpact.nl/nominees/donna-luna-van-leeuwen/'>Young Impact Award 2026</Link> in de categorie Klimaat.
           </ListItem>
         </UnorderedList>
-        {/* <Box mt={8} w='100%'>
-          <Image
-            src='/posters/KKCD_Posters_A4_4.jpg'
-            alt='Kinder Klimaat Concert Dag poster'
-            w='100%'
-            maxW='100%'
-            borderRadius='lg'
-            boxShadow='md'
-          />
-        </Box> */}
 
       </Container>
     </Box>
