@@ -94,6 +94,23 @@ export const Team = () => {
         </Box>
 
         <Heading as='h1' size='xl' textAlign={'center'}>
+          Ondersteuners
+        </Heading>
+        <Heading as='h2' size='xl' id='maartje-valk'>
+            Maartje Valk
+        </Heading>
+        <Text as='span' textStyle={'paragraphBlock'}>
+          Maartje geeft zakelijk advies en is verantwoordelijk voor fondsenwerving van de Kinder Klimaat Concert Dag 2026. Daarnaast is ze zakelijk leider van het Bachfestival Dordrecht en programmamanager van het Blockbusterfonds.
+        </Text>
+        <Heading as='h2' size='xl' id='tim-treffers'>
+            Tim Treffers
+        </Heading>
+        <Text as='span' textStyle={'paragraphBlock'}>
+          Tim is verantwoordelijk voor communicatie rond de Kinder Klimaat Concert Dag 2026.
+        </Text>
+
+
+        <Heading as='h1' size='xl' textAlign={'center'}>
           Het bestuur
         </Heading>
         <Heading as='h2' size='xl' id='henk-van-de-meulen'>
