@@ -16,7 +16,7 @@ export const Layout = ({
 }) => {
   // Track page views
   useEffect(() => {
-    ReactGA.initialize('G-62W42QPRQC')
+    ReactGA.initialize('G-TJ080HCX47')
     ReactGA.send({ hitType: 'pageview' })
   }, [])
 
