@@ -23,9 +23,6 @@ export const Partners = () => {
         </Heading>
 
         <Box my={8}>
-          {/* <Text fontSize={'lg'}>
-            De stichting Kinder Klimaat Concert Dag werkt met deze partners samen:
-          </Text> */}
 
           <Grid
             templateColumns={{
