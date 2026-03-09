@@ -2,9 +2,9 @@ import { Box, Container, Text, UnorderedList, ListItem, ListIcon } from '@chakra
 import { Heading, Image } from '@/components/mdx'
 import { ChevronRightIcon } from '@chakra-ui/icons'
 
-export const Concert = () => {
+export const Editie2026 = () => {
   return (
-    <Box id={'concert'} as='section' scrollMarginTop={'80px'} bg='#72a9c9'>
+    <Box id={'editie2026'} as='section' scrollMarginTop={'80px'} bg='#72a9c9'>
       <Container maxW='container.lg'>
         <Heading as='h1' size='2xl' mt={0} pt={10} textAlign='center'>
           Editie 2026

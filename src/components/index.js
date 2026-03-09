@@ -1,7 +1,7 @@
 export { Banner } from '@/components/banner'
 export { HoeHetBegon } from '@/components/hoehetbegon'
 export { SteunOns } from '@/components/steunons'
-export { Concert } from '@/components/concert'
+export { Editie2026 } from '@/components/editie2026'
 export { Partners } from '@/components/partners'
 export { Media } from '@/components/media'
 export { Footer } from '@/components/footer'

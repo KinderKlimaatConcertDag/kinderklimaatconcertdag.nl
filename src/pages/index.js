@@ -1,4 +1,4 @@
-import { Concert, HeroBanner, HoeHetBegon, Partners } from '@/components'
+import { Editie2026, HeroBanner, HoeHetBegon, Partners } from '@/components'
 
 import { Layout } from '@/components/layout'
 
@@ -13,7 +13,7 @@ export default function IndexPage() {
       // enableBanner
     >
       <HeroBanner />
-      <Concert />
+      <Editie2026 />
       <HoeHetBegon />
       <Partners />
     </Layout>

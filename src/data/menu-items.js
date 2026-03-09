@@ -1,5 +1,5 @@
 export const menuItems = [
-  { label: 'Editie 2026', href: '/#concert' },
+  { label: 'Editie 2026', href: '/#editie2026' },
   { label: 'Hoe het begon', href: '/#hoehetbegon' },
   { label: 'Partners', href: '/#partners' },
   { label: 'Media', href: '/resources#media' },

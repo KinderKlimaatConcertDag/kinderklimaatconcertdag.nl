@@ -3,7 +3,7 @@ export const footerItems = {
   evenement: [
     {
       label: 'Editie 2026',
-      href: '/#concert',
+      href: '/#editie2026',
     },
     {
       label: 'Partners',
