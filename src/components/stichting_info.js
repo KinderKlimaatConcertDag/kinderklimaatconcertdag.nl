@@ -11,7 +11,7 @@ export const StichtingInfo = () => {
 
         <Box py={4} fontSize={'lg'}>
           <Text>
-            De Stichting Kinder Klimaat Concert Dag is door de Belastingdienst aangemerkt als 'algemeen nut beogende instelling' (ANBI).
+            De Stichting Kinder Klimaat Concert Dag is vanaf de oprichtingsdatum op 14 mei 2025 door de Belastingdienst aangemerkt als 'algemeen nut beogende instelling' (ANBI).
           </Text>
         </Box>
         <Box py={4} fontSize={'lg'}>
