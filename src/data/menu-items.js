@@ -14,5 +14,4 @@ export const menuItems = [
       { label: 'Contact', href: '/stichting#contact' },
     ],
   },
-  { label: 'Steun ons!', href: '/stichting#steunons' },
 ]
