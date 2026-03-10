@@ -1,6 +1,5 @@
-import { Box, Button, Container, Heading, Stack, Text } from '@chakra-ui/react'
-
-import { Image, Link } from '@/components/mdx'
+import { Box, Container, Stack, Text } from '@chakra-ui/react'
+import { Image } from '@/components/mdx'
 
 export const HeroBanner = () => {
   return (
@@ -33,7 +32,7 @@ export const HeroBanner = () => {
             Positief en hoopvol.
           </Text>
           <Text as='span' textStyle={'paragraphBlock'}>
-          Voor kinderen gaat het klimaat nog niet over voor- en tegenstanders van beleid. De Stichting Kinder Klimaat Concert Dag is volledig onafhankelijk en niet verbonden met politieke partijen. Wel werken we samen met culturele partners.
+            Voor kinderen gaat het klimaat nog niet over voor- en tegenstanders van beleid. De Stichting Kinder Klimaat Concert Dag is volledig onafhankelijk en niet verbonden met politieke partijen. Wel werken we samen met culturele partners.
           </Text>
         </Text>
         <Box mt={8} w='100%'>
