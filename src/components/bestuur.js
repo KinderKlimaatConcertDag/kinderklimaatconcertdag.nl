@@ -34,12 +34,30 @@ export const Bestuur = () => {
           </Box>
         </Box>
 
-        <Heading as='h2' size='xl' id='erik-de-ruijter-van-steveninck'>
-            Erik de Ruijter van Steveninck
-        </Heading>
-        <Text as='span' textStyle={'paragraphBlock'}>
-          Erik is secretaris van de Stichting Kinder Klimaat Concert Dag.
-        </Text>
+        <Box py={5}>
+          <Box display='flex' flexDirection={{ base: 'column', md: 'row-reverse' }} alignItems='flex-start' gap={6}>
+            <Image
+              src='/team/ErikdeRuijtervanSteveninck.png'
+              alt='Erik de Ruijter van Steveninck'
+              w={{ base: '100%', md: '220px' }}
+              maxW={{ base: '320px', md: '220px' }}
+              borderRadius='lg'
+              boxShadow='md'
+              flexShrink={0}
+            />
+            <Box>
+              <Heading as='h2' size='xl' pt={0} mt={0} id='erik-de-ruijter-van-steveninck'>
+                  Erik de Ruijter van Steveninck
+              </Heading>
+              <Heading as='h3' size='l'>
+                Secretaris
+              </Heading>
+              <Text as='span' textStyle={'paragraphBlock'}>
+                Erik heeft als marien ecoloog bij het IHE Delft mede bijgedragen aan het opzetten en wereldwijd verzorgen van cursussen op het gebied van klimaatadaptatie in het waterbeheer. Hij is amateur fluitist en penningmeester bij de Stichting Muziekfestival Utrechtse Heuvelrug.
+              </Text>
+            </Box>
+          </Box>
+        </Box>
 
         <Heading as='h2' size='xl' id='atze-sytsma'>
             Atze Sytsma
