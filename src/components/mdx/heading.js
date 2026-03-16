@@ -5,9 +5,6 @@ export const Heading = (props) => (
     css={{
       scrollMarginTop: '80px',
       scrollSnapMargin: '100px',
-      '&[id]': {
-        pointerEvents: 'none',
-      },
       '&[id]:before': {
         display: 'block',
         height: ' 6rem',
