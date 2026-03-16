@@ -59,12 +59,31 @@ export const Bestuur = () => {
           </Box>
         </Box>
 
-        <Heading as='h2' size='xl' id='atze-sytsma'>
-            Atze Sytsma
-        </Heading>
-        <Text as='span' textStyle={'paragraphBlock'}>
-          Atze is penningmeester van de Stichting Kinder Klimaat Concert Dag.
-        </Text>
+        <Box py={5}>
+          <Box display='flex' flexDirection={{ base: 'column', md: 'row-reverse' }} alignItems='flex-start' gap={6}>
+            <Image
+              src='/team/AtzeSytsma.jpeg'
+              alt='Atze Sytsma'
+              w={{ base: '100%', md: '220px' }}
+              maxW={{ base: '320px', md: '220px' }}
+              borderRadius='lg'
+              boxShadow='md'
+              flexShrink={0}
+            />
+            <Box>
+              <Heading as='h2' size='xl' pt={0} mt={0} id='atze-sytsma'>
+                Atze Sytsma
+              </Heading>
+              <Heading as='h3' size='l'>
+                Penningmeester
+              </Heading>
+              <Text as='span' textStyle={'paragraphBlock'}>
+                Atze was o.a. directeur van concertzalen, symfonieorkesten, een museum, een bibliotheekorganisatie en het VSBfonds. Hij was ook voorzitter van het Nationaal JeugdOrkest en was en is toezichthouder en bestuurder bij non-profitorganisaties.
+              </Text>
+            </Box>
+          </Box>
+        </Box>
+
         <Heading as='h2' size='xl' id='ilonka-kolthof'>
             Ilonka Kolthof
         </Heading>
