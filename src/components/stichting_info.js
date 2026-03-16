@@ -21,7 +21,7 @@ export const StichtingInfo = () => {
         </Box>
         <Box py={4} fontSize={'lg'}>
           <Text>
-            De statuten van Stichting Kinder Klimaat Concert Dag (KKCD) zijn <Link isExternal href="/documents/statuten.pdf">hier</Link> te downloaden. KKCD committeert zich aan de naleving van de Code Cultural Governance.
+            De statuten van Stichting Kinder Klimaat Concert Dag (KKCD) zijn <Link isExternal href="/documents/statuten.pdf">hier</Link> te downloaden. KKCD past de Code Cultural Governance toe.
           </Text>
         </Box>
         <Box py={4}>
