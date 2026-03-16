@@ -84,12 +84,31 @@ export const Bestuur = () => {
           </Box>
         </Box>
 
-        <Heading as='h2' size='xl' id='ilonka-kolthof'>
-            Ilonka Kolthof
-        </Heading>
-        <Text as='span' textStyle={'paragraphBlock'}>
-          Ilonka is bestuurslid van de Stichting Kinder Klimaat Concert Dag.
-        </Text>
+
+        <Box py={5}>
+          <Box display='flex' flexDirection={{ base: 'column', md: 'row-reverse' }} alignItems='flex-start' gap={6}>
+            <Image
+              src='/team/IlonkaKolthof.jpg'
+              alt='Ilonka Kolthof'
+              w={{ base: '100%', md: '220px' }}
+              maxW={{ base: '320px', md: '220px' }}
+              borderRadius='lg'
+              boxShadow='md'
+              flexShrink={0}
+            />
+            <Box>
+              <Heading as='h2' size='xl' pt={0} mt={0} id='ilonka-kolthof'>
+                Ilonka Kolthof
+              </Heading>
+              <Heading as='h3' size='l'>
+                Bestuurslid
+              </Heading>
+              <Text as='span' textStyle={'paragraphBlock'}>
+                Ilonka Kolthof is communicatieprofessional in de culturele sector en momenteel hoofd marketing en communicatie van Bachfestival Dordrecht. Eerder werkte zij onder meer als senior communicatieadviseur en woordvoerder bij de Raad voor Cultuur en als marketeer voor organisaties als Amare en het Prinses Christina Concours. Ilonka heeft een achtergrond als klassiek fluitist.
+              </Text>
+            </Box>
+          </Box>
+        </Box>
 
         <Heading as='h1' size='2xl' textAlign={'center'}>
           Adviseurs
