@@ -47,14 +47,14 @@ export const Editie2026 = () => {
           <Text as='span' textStyle={'paragraphBlock'}>
             De randprogrammering komt tot stand in samenwerking met de Universiteit Utrecht.
           </Text>
-          <UnorderedList fontSize={'lg'} pb={5} spacing={3} styleType={'none'} ml={0}>
+          {/* <UnorderedList fontSize={'lg'} pb={5} spacing={3} styleType={'none'} ml={0}>
             <ListItem>
               <ListIcon as={ChevronRightIcon} color='#cd5b1c' />
               Kaarten: Koop je kaartjes via de kassa van TivoliVredenburg.
             </ListItem>
-          </UnorderedList>
+          </UnorderedList> */}
           <Text as='span' textStyle={'paragraphBlock'}>
-            Voor de voorstelling kunnen kinderen hùn vragen over het klimaat stellen aan een klimaat panel van wetenschappers van de Universiteit Utrecht.
+            Voor de voorstelling kunnen kinderen hun vragen over het klimaat stellen aan een klimaat panel van wetenschappers van de Universiteit Utrecht.
           </Text>
         </Box>
         </Box>
