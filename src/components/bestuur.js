@@ -1,4 +1,4 @@
-import { Box, Container, Image, Text, Link } from '@chakra-ui/react'
+import { Badge, Box, Container, Image, Text, Link } from '@chakra-ui/react'
 import { Heading } from '@/components/mdx'
 
 export const Bestuur = () => {
@@ -73,6 +73,11 @@ export const Bestuur = () => {
             <Box>
               <Heading as='h2' size='xl' pt={0} mt={0} id='atze-sytsma'>
                 Atze Sytsma
+                <Link isExternal href='https://www.linkedin.com/in/atze-sytsma-4a5682/' _hover={{ textDecoration: 'none' }} display='inline-block' mb={0} ml={3}>
+                  <Badge bg='#eec216' color='black' textTransform='none' borderRadius='full' px={3} py={1} mb={0}>
+                    LinkedIn
+                  </Badge>
+                </Link>
               </Heading>
               <Heading as='h3' size='l'>
                 Penningmeester
@@ -99,6 +104,11 @@ export const Bestuur = () => {
             <Box>
               <Heading as='h2' size='xl' pt={0} mt={0} id='ilonka-kolthof'>
                 Ilonka Kolthof
+                <Link isExternal href='https://www.linkedin.com/in/ilonkakolthof/' _hover={{ textDecoration: 'none' }} display='inline-block' mb={0} ml={3}>
+                  <Badge bg='#eec216' color='black' textTransform='none' borderRadius='full' px={3} py={1} mb={0}>
+                    LinkedIn
+                  </Badge>
+                </Link>
               </Heading>
               <Heading as='h3' size='l'>
                 Bestuurslid
@@ -127,6 +137,11 @@ export const Bestuur = () => {
             <Box>
               <Heading as='h2' size='xl' pt={0} mt={0} id='erik-van-sebille'>
                   Erik van Sebille
+                <Link isExternal href='https://www.linkedin.com/in/erikvansebille/' _hover={{ textDecoration: 'none' }} display='inline-block' mb={0} ml={3}>
+                  <Badge bg='#eec216' color='black' textTransform='none' borderRadius='full' px={3} py={1} mb={0}>
+                    LinkedIn
+                  </Badge>
+                </Link>
               </Heading>
               <Text as='span' textStyle={'paragraphBlock'}>
                 Erik is hoogleraar oceanografie en wetenschapscommunicatie aan de <Link isExternal href='https://www.uu.nl/staff/EvanSebille'>Universiteit Utrecht</Link>. Hij is gespecialiseerd in oceaanstromingen en de verspreiding van microplastics in de oceanen. Hij heeft een grote passie voor het klimaat en is een veelgevraagd spreker over klimaatverandering en de rol van de oceanen.
