@@ -89,7 +89,7 @@ export const Team = () => {
         <Box py={5}>
           <Box display='flex' flexDirection={{ base: 'column', md: 'row-reverse' }} alignItems='flex-start' gap={6}>
             <Image
-              src='/team/WIjnandHonig.jpeg'
+              src='/team/WijnandHonig.jpeg'
               alt='Wijnand Honig'
               w={{ base: '100%', md: '220px' }}
               maxW={{ base: '320px', md: '220px' }}
