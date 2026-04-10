@@ -13,8 +13,8 @@ export const Team = () => {
             <Image
               src='/team/LunavanLeeuwen.jpeg'
               alt='Luna van Leeuwen'
-              w={{ base: '100%', md: '220px' }}
-              maxW={{ base: '320px', md: '220px' }}
+              w={{ base: '100%', md: '320px' }}
+              maxW={{ base: '320px', md: '320px' }}
               borderRadius='lg'
               boxShadow='md'
               flexShrink={0}
@@ -41,8 +41,8 @@ export const Team = () => {
             <Image
               src='/team/DonnavanLeeuwen.jpeg'
               alt='Donna van Leeuwen'
-              w={{ base: '100%', md: '220px' }}
-              maxW={{ base: '320px', md: '220px' }}
+              w={{ base: '100%', md: '320px' }}
+              maxW={{ base: '320px', md: '320px' }}
               borderRadius='lg'
               boxShadow='md'
               flexShrink={0}
@@ -92,7 +92,7 @@ export const Team = () => {
               src='/team/WijnandHonig.jpeg'
               alt='Wijnand Honig'
               w={{ base: '100%', md: '220px' }}
-              maxW={{ base: '320px', md: '220px' }}
+              maxW={{ base: '200px', md: '180px' }}
               borderRadius='lg'
               boxShadow='md'
               flexShrink={0}
