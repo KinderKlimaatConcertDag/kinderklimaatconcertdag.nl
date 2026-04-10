@@ -86,6 +86,31 @@ export const Team = () => {
           Tim is verantwoordelijk voor communicatie rond de Kinder Klimaat Concert Dag 2026.
         </Text>
 
+        <Box py={5}>
+          <Box display='flex' flexDirection={{ base: 'column', md: 'row-reverse' }} alignItems='flex-start' gap={6}>
+            <Image
+              src='/team/WIjnandHonig.jpeg'
+              alt='Wijnand Honig'
+              w={{ base: '100%', md: '220px' }}
+              maxW={{ base: '320px', md: '220px' }}
+              borderRadius='lg'
+              boxShadow='md'
+              flexShrink={0}
+            />
+            <Box>
+              <Heading as='h2' size='xl' pb={0} pt={0} mt={0} id='wijnand-honig'>
+                Wijnand Honig
+              </Heading>
+              <Heading as='h3' size='l'>
+                Eindredacteur en Creatief Projectleider
+              </Heading>
+              <Text as='span' textStyle={'paragraphBlock'}>
+                Wijnand Honig werkt al meer dan 30 jaar bij de publieke omroep als redacteur, eindredacteur en hoofdredacteur. Zijn werkterrein is kunst en cultuur, met een grote liefde voor muziek: van pop tot jazz en van wereldmuziek tot klassieke muziek. Sinds 2023 werkt hij zelfstandig als eindredacteur binnen de media en als creatief projectleider in de culturele wereld.
+              </Text>
+            </Box>
+          </Box>
+        </Box>
+
       </Container>
     </Box>
 
