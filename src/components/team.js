@@ -1,4 +1,4 @@
-import { Box, Container, Image, Text } from '@chakra-ui/react'
+import { Box, Container, Image, Text, Link, Badge } from '@chakra-ui/react'
 import { Heading } from '@/components/mdx'
 
 export const Team = () => {
@@ -22,6 +22,11 @@ export const Team = () => {
             <Box>
               <Heading as='h2' size='xl' pb={0} pt={0} mt={0} id='luna-van-leeuwen'>
                 Luna van Leeuwen
+                <Link isExternal href='https://www.lunavanleeuwen.nl' _hover={{ textDecoration: 'none' }} display='inline-block' mb={0} ml={3}>
+                  <Badge bg='#eec216' color='black' textTransform='none' borderRadius='full' px={3} py={1} mb={0}>
+                    Website
+                  </Badge>
+                </Link>
               </Heading>
               <Heading as='h3' size='l'>
                 Oprichter
@@ -50,6 +55,11 @@ export const Team = () => {
             <Box>
               <Heading as='h2' size='xl' pb={0} pt={0} mt={0} id='donna-van-leeuwen'>
                 Donna van Leeuwen
+                <Link isExternal href='https://nl.linkedin.com/in/donna-van-leeuwen-ab987428b' _hover={{ textDecoration: 'none' }} display='inline-block' mb={0} ml={3}>
+                  <Badge bg='#eec216' color='black' textTransform='none' borderRadius='full' px={3} py={1} mb={0}>
+                    LinkedIn
+                  </Badge>
+                </Link>
               </Heading>
               <Heading as='h3' size='l'>
                 Oprichter
