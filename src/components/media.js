@@ -1,4 +1,4 @@
-import { Box, Container } from '@chakra-ui/react'
+import { Box, Container, Image } from '@chakra-ui/react'
 import { Heading } from '@/components/mdx'
 import React from 'react'
 
@@ -64,6 +64,21 @@ export const Media= () => {
               allowFullScreen
             />
           )}
+        </Box>
+        <Heading as='h2' size='xl' pb={0} pt={20} mt={0} id='young-impact-award-2026' textAlign={'center'}>
+          We hebben de Young Impact Award 2026 gewonnen!
+        </Heading>
+
+        <Box mt={8} w='100%'>
+          <Image
+            src='/media/YoungImpactAwards2026.jpeg'
+            sizes='100vw'
+            alt='Young Impact Award 2026'
+            w='100%'
+            maxW='100%'
+            borderRadius='lg'
+            boxShadow='md'
+          />
         </Box>
 
       </Container>
