@@ -52,12 +52,16 @@ jobs:
           path: ./out
 
   deploy:
+    runs-on: ubuntu-latest
+    needs: build
+    # Skip PRs from forks (they don't have permission to deploy Pages),
+    # but deploy for:
+    # - pushes to main
+    # - PRs where the branch is in this repo
+    if: github.event_name != 'pull_request' || github.event.pull_request.head.repo.full_name == github.repository
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
-    needs: build
-    if: github.ref == 'refs/heads/main'
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
