@@ -31,11 +31,12 @@ export const HeroBanner = () => {
         </Box>
       </Box>
       <Container maxW='container.lg' pb={12}>
-        <Box display='flex' justifyContent='center' gap={{ base: 4, md: 8 }} mt={{ base: '-40px', md: '-60px' }} position='relative' zIndex={1} alignItems='flex-start'>
+        <Box display='flex' justifyContent='flex-start' gap={{ base: 4, md: 8 }} mt={{ base: '-40px', md: '-60px' }} position='relative' zIndex={1} alignItems='flex-start'>
           <Image
             src='/assets/KKCD_Site_Schets_014.png'
             alt='Kinder Klimaat Concert Dag'
             w={{ base: '300px', md: '400px' }}
+            mt = {{ base: '60px', md: '80px' }}
           />
           <Image
             src='/assets/KKCD_Site_Schets_012.png'
@@ -51,31 +52,31 @@ export const HeroBanner = () => {
           />
         </Box>
         <Text py={5}>
-          <Text as='span' textStyle={'paragraphBlock'}>
+          <Text
+            as='h2'
+            fontFamily={'heading'}
+            fontWeight='bold'
+            fontSize={{ base: '2xl', md: '3xl' }}
+            color='#6f73b2'
+            textAlign='center'
+            mb={4}
+          >
             Tijdens de Kinder Klimaat Concert Dag staat het perspectief van kinderen en jongeren op klimaatverandering centraal.
           </Text>
-          <Text as='span' textStyle={'paragraphBlock'}>
+          <Text
+            as='span'
+            textStyle={'paragraphBlock'}
+            textAlign='center'
+            fontWeight='bold'
+            display='block'
+          >
             Kinderen hebben nog een open blik, stellen eerlijke vragen en kunnen door hun kwetsbaarheid mensen aan het denken zetten.
-          </Text>
-          <Text as='span' textStyle={'paragraphBlock'}>
             Daarom willen we kinderen één dag in het jaar een platform geven om door muziek te maken, te tekenen, te dansen en te dichten op te komen voor hun toekomst:{' '}
             <Text as='span' display='inline' fontStyle='italic'>
               positief en hoopvol!
             </Text>
           </Text>
         </Text>
-        <Box mt={8} w='100%'>
-          <Image
-            src='/posters/KKCD_Posters_A4_6-lg.jpg'
-            srcSet='/posters/KKCD_Posters_A4_6-sm.jpg 424w, /posters/KKCD_Posters_A4_6-md.jpg 636w, /posters/KKCD_Posters_A4_6.jpg 848w'
-            sizes='100vw'
-            alt='Kinder Klimaat Concert Dag poster'
-            w='100%'
-            maxW='100%'
-            borderRadius='lg'
-            boxShadow='md'
-          />
-        </Box>
 
       </Container>
     </Box>
