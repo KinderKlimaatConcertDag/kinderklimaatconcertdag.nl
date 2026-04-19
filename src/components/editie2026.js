@@ -20,41 +20,26 @@ export const Editie2026 = () => {
             borderRadius='md'
             textAlign='center'
           >
-            De eerste Kinder Klimaat Concert Dag is op zondag 27 september 2026 in TivoliVredenburg in Utrecht.
+            De eerste Kinder Klimaat Concert Dag vindt plaats op zondag 27 september 2026 in TivoliVredenburg in Utrecht.
           </Text>
         </Text>
         <Box py={5} position='relative'>
           <Box>
           <Box pr={{ base: 0, md: '430px' }}>
           <Text as='span' textStyle={'paragraphBlock'}>
-            Tijdens de avondvoorstelling  “Behoud onze seizoenen!” zorgen muziek, dans en kunst gemaakt door kinderen en jongeren voor een bruisende, ontroerende en virtuoze avond. Je wordt meegenomen van de bittere kou in de winter naar de eerste zonnige lentedag, en van een zwoele zomeravond naar de wervelende herfstwind. Diverse stijlen wisselen elkaar af.
+            Tijdens de avondvoorstelling “Behoud onze seizoenen!” zorgen muziek en kunst gemaakt door kinderen en jongeren voor een bruisende, ontroerende en virtuoze avond. Je wordt meegenomen van de bittere kou in de winter naar de eerste zonnige lentedag, en van een zwoele zomeravond naar de wervelende herfstwind. Diverse stijlen en bezettingen wisselen elkaar af en zorgen voor een veelzijdig en toegankelijk programma.
           </Text>
-          <UnorderedList fontSize={'lg'} pb={5} spacing={3} styleType={'none'} ml={0}>
-            <ListItem>
-              <ListIcon as={ChevronRightIcon} color='#cd5b1c' />
-              Locatie: Hertz zaal TivoliVredenburg, Utrecht | Aanvang: NTB
-            </ListItem>
-          </UnorderedList>
           <Text as='span' textStyle={'paragraphBlock'}>
-            Na de voorstelling presenteren middelbare scholieren uit de regio Utrecht hun eigen onderzoeken over het klimaat.
+            Een bijzondere rol is weggelegd voor de vragen van jongeren. In samenwerking met de KlimaatHelpdesk worden deze vooraf verzameld en vormen ze de inhoudelijke rode draad van de voorstelling. Tijdens het concert worden geselecteerde vragen live gesteld door kinderen en beantwoord door wetenschappers van de Universiteit Utrecht. Zo ontstaat een directe ontmoeting tussen de belevingswereld van jongeren en wetenschappelijke kennis.
           </Text>
-          <UnorderedList fontSize={'lg'} pb={5} spacing={3} styleType={'none'} ml={0}>
-            <ListItem>
-              <ListIcon as={ChevronRightIcon} color='#cd5b1c' />
-              Locatie: Punt foyer TivoliVredenburg, Utrecht | Aanvang: NTB
-            </ListItem>
-          </UnorderedList>
           <Text as='span' textStyle={'paragraphBlock'}>
-            De randprogrammering komt tot stand in samenwerking met de Universiteit Utrecht.
+            Ook beeldende kunst maakt deel uit van het programma. Via onze tekenwedstrijd worden basisschoolleerlingen gevraagd hun favoriete seizoen te tekenen. Een selectie van deze tekeningen wordt tijdens het concert geprojecteerd en vormt een visuele laag die de muziek versterkt.
           </Text>
-          {/* <UnorderedList fontSize={'lg'} pb={5} spacing={3} styleType={'none'} ml={0}>
-            <ListItem>
-              <ListIcon as={ChevronRightIcon} color='#cd5b1c' />
-              Kaarten: Koop je kaartjes via de kassa van TivoliVredenburg.
-            </ListItem>
-          </UnorderedList> */}
           <Text as='span' textStyle={'paragraphBlock'}>
-            Voor de voorstelling kunnen kinderen hun vragen over het klimaat stellen aan een klimaat panel van wetenschappers van de Universiteit Utrecht.
+            Na afloop verplaatst het programma zich naar foyer De Punt. Hier presenteren middelbare scholieren uit de regio Utrecht, via U-Talent, hun eigen onderzoek naar klimaatvraagstukken. In deze informele setting gaan zij in gesprek met beleidsmakers, wetenschappers en andere aanwezigen.
+          </Text>
+          <Text as='span' textStyle={'paragraphBlock'}>
+            De Kinder Klimaat Concert Dag brengt zo verschillende generaties en perspectieven samen in een gedeelde ervaring waarin luisteren, ontmoeten en reflectie centraal staan.
           </Text>
         </Box>
         </Box>
