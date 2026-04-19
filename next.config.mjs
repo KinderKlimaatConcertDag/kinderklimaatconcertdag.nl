@@ -12,13 +12,16 @@ const withMDX = nextMDX({
   },
 })
 
+const basePath = process.env.BASE_PATH || '';
+
 const nextConfig = {
   // Append the default value with md extensions
   pageExtensions: ["ts", "tsx", "js", "jsx", "md", "mdx"],
   images: {
     domains: ["raw.githubusercontent.com", "numpy.org", "dask.org", "chainer.org"],
   },
-  output: 'export'
+  output: 'export',
+  ...(basePath && { basePath }),
 }
 
 export default withMDX(nextConfig)
