@@ -17,7 +17,7 @@ export const HoeHetBegon = () => {
   return (
     <Box id={'hoehetbegon'} as='section' scrollMarginTop={'80px'}>
       <Container maxW='container.lg'>
-        <Heading as='h1' size='2xl' mt={0} pt={10} textAlign='center' color='#62afa8'>
+        <Heading as='h1' size='2xl' mt={0} pt={10} mb={4} textAlign='center'>
           Hoe het begon
         </Heading>
         <Divider borderColor='black.200' />

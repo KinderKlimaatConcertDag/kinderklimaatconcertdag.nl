@@ -1,5 +1,6 @@
 export { Banner } from '@/components/banner'
 export { HoeHetBegon } from '@/components/hoehetbegon'
+export { Mijlpalen } from '@/components/mijlpalen'
 export { SteunOns } from '@/components/steunons'
 export { Editie2026 } from '@/components/editie2026'
 export { Partners } from '@/components/partners'

@@ -51,7 +51,7 @@ export const HeroBanner = () => {
             ml={{ base: '-50px', md: '-80px' }}
           />
         </Box>
-        <Text py={5}>
+        <Box py={5}>
           <Text
             as='h2'
             fontFamily={'heading'}
@@ -76,7 +76,7 @@ export const HeroBanner = () => {
               positief en hoopvol!
             </Text>
           </Text>
-        </Text>
+        </Box>
 
       </Container>
     </Box>
