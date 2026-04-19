@@ -26,9 +26,16 @@ export const Mijlpalen = () => {
     >
       <Container maxW='container.lg'>
 
-        <Heading as='h1' size='2xl' mt={0} pt={10} mb={4} textAlign='center' color='#eec216'>
-          Mijlpalen
-        </Heading>
+        <Box display='flex' alignItems='center' justifyContent='center' gap={4} pt={10} mb={4}>
+          <Image
+            src='/assets/KKCD_Site_Schets_016.png'
+            alt=''
+            h={{ base: '40px', md: '50px' }}
+          />
+          <Heading as='h1' size='2xl' mt={0} mb={0} color='#eec216' lineHeight='1'>
+            Mijlpalen
+          </Heading>
+        </Box>
         <Divider borderColor='#eec216' />
 
         <UnorderedList

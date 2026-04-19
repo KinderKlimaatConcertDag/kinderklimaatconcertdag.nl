@@ -25,6 +25,10 @@ export const footerItems = {
 
   stichting: [
     {
+      label: 'Mijlpalen',
+      href: '/#mijlpalen',
+    },
+    {
       label: 'Stichting',
       href: '/stichting#stichting_info',
     },
