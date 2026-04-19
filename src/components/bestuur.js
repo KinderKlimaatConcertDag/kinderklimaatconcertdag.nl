@@ -149,6 +149,34 @@ export const Bestuur = () => {
             </Box>
           </Box>
         </Box>
+
+        <Box py={5}>
+          <Box display='flex' flexDirection={{ base: 'column', md: 'row-reverse' }} alignItems='flex-start' gap={6}>
+            <Image
+              src='/team/AnjaVolk.jpeg'
+              alt='Anja Volk'
+              w={{ base: '100%', md: '220px' }}
+              maxW={{ base: '320px', md: '220px' }}
+              borderRadius='lg'
+              boxShadow='md'
+              flexShrink={0}
+            />
+            <Box flex={1}>
+              <Heading as='h2' size='xl' pt={0} mt={0} id='anja-volk'>
+                  Anja Volk
+                <Link isExternal href='https://www.linkedin.com/in/anja-volk-54439724/' _hover={{ textDecoration: 'none' }} display='inline-block' mb={0} ml={3}>
+                  <Badge bg='#eec216' color='black' textTransform='none' borderRadius='full' px={3} py={1} mb={0}>
+                    LinkedIn
+                  </Badge>
+                </Link>
+              </Heading>
+              <Text as='span' textStyle={'paragraphBlock'}>
+                Anja is hoogleraar Music Information Computing.
+              </Text>
+            </Box>
+          </Box>
+        </Box>
+
       </Container>
     </Box>
 
