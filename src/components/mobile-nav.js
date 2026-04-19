@@ -32,21 +32,21 @@ const MobileNavItem = ({ href, children, label }) => {
         borderRadius='md'
         _hover={{
           textDecoration: 'none',
-          bg: 'blackAlpha.100',
+          bg: 'whiteAlpha.200',
         }}
       >
         <Text
           fontFamily={'heading'}
           fontWeight={600}
           whiteSpace={'nowrap'}
-          color={'black'}
+          color={'white'}
         >
           {label}
         </Text>
         {children && (
           <Icon
             as={ChevronDownIcon}
-            color={'black'}
+            color={'white'}
             transition={'all .25s ease-in-out'}
             transform={isOpen ? 'rotate(180deg)' : ''}
             w={6}
@@ -76,10 +76,10 @@ const MobileNavItem = ({ href, children, label }) => {
                 fontFamily={'heading'}
                 fontSize={'sm'}
                 whiteSpace={'nowrap'}
-                color={'black'}
+                color={'white'}
                 _hover={{
                   textDecoration: 'none',
-                  bg: 'blackAlpha.100',
+                  bg: 'whiteAlpha.200',
                 }}
               >
                 {child.label}
@@ -102,11 +102,11 @@ export const MobileNav = ({ navItems, isOpen }) => {
       pos='fixed'
       top='60px'
       w={'full'}
-      bg={'white'}
+      bg={'black'}
       minH={'calc(100vh - 60px)'}
       css={{
         backdropFilter: 'saturate(180%) blur(5px)',
-        backgroundColor: 'rgba(255, 255, 255, 0.8)',
+        backgroundColor: 'rgba(0, 0, 0, 0.9)',
       }}
     >
       {navItems.map((navItem) => (

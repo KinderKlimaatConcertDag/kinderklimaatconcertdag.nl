@@ -24,7 +24,7 @@ export const Header = () => {
         justify={'center'}
         css={{
           backdropFilter: 'saturate(180%) blur(5px)',
-          backgroundColor: '#eec216',
+          backgroundColor: 'rgba(0, 0, 0, 0.9)',
         }}
       >
         <Container as={Flex} maxW={'container.lg'} align={'center'}>
@@ -44,6 +44,8 @@ export const Header = () => {
                 )
               }
               variant={'ghost'}
+              color={'white'}
+              _hover={{ bg: 'whiteAlpha.200' }}
               size={'sm'}
               aria-label={'Toggle Navigation'}
             />
@@ -64,7 +66,7 @@ export const Header = () => {
             >
               <Image
                 w={20}
-                src={'/assets/KKCD_Logo_rgb_blauw.png'}
+                src={'/assets/KKCD_Site_Schets_013.png'}
                 alt={'KKCD logo'}
               />
             </Stack>

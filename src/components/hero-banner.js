@@ -4,23 +4,33 @@ import { Image } from '@/components/mdx'
 export const HeroBanner = () => {
   return (
     <Box as='section' bg='#EEEEEE'>
-      <Container maxW='container.lg' pt={24} pb={12}>
-        <Stack
-          align={'center'}
-          spacing={{ base: 8, md: 10 }}
-          justify={'center'}
-          direction={{ base: 'column', md: 'row' }}
-        >
-          <Stack flex={1} spacing={{ base: 10, md: 20 }}>
-            {
-              <Image
-                src={'/assets/KKCD_Logo_rgb_blauw.png'}
-                alt='Kinder Klimaat Concert Dag'
-                objectFit='contain'
-              />
-            }
-          </Stack>
-        </Stack>
+      <Box w='100%' pt={'60px'}>
+        <Box position='relative'>
+          <Image
+            src={'/assets/KKCD_Site_Schets_01.png'}
+            alt='Kinder Klimaat Concert Dag'
+            w='100%'
+            objectFit='cover'
+          />
+          <Text
+            position='absolute'
+            top='50%'
+            left='50%'
+            transform='translate(-50%, -50%)'
+            fontSize={{ base: 'xl', sm: '2xl', md: '5xl', lg: '7xl' }}
+            fontFamily={'heading'}
+            fontWeight='bold'
+            color='white'
+            textAlign='center'
+            px={4}
+            w='100%'
+            lineHeight={1.1}
+          >
+            Luister,<br />voor onze<br />toekomst
+          </Text>
+        </Box>
+      </Box>
+      <Container maxW='container.lg' pb={12}>
         <Text py={5}>
           <Text as='span' textStyle={'paragraphBlock'}>
             Tijdens de Kinder Klimaat Concert Dag staat het perspectief van kinderen en jongeren op klimaatverandering centraal.

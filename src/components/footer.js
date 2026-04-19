@@ -15,7 +15,7 @@ import { footerItems } from '@/data/footer-items'
 const SocialButton = ({ children, label, href }) => {
   return (
     <Button
-      bg={'blackAlpha.100'}
+      bg={'whiteAlpha.200'}
       rounded={'full'}
       w={12}
       h={12}
@@ -27,7 +27,7 @@ const SocialButton = ({ children, label, href }) => {
       justifyContent={'center'}
       transition={'background 0.3s ease'}
       _hover={{
-        bg: 'blackAlpha.200',
+        bg: 'whiteAlpha.300',
       }}
     >
       <VisuallyHidden>{label}</VisuallyHidden>
@@ -47,8 +47,8 @@ const ListHeader = ({ children }) => {
 export const Footer = () => {
   return (
     <Box
-      bg={'#eec216'}
-      color={'gray.900'}
+      bg={'black'}
+      color={'white'}
       as='footer'
     >
       <Container maxW='container.lg' my={8}>
@@ -61,7 +61,7 @@ export const Footer = () => {
             <Box>
               <Image
                 w={32}
-                src={'/assets/KKCD_Logo_rgb_blauw.png'}
+                src={'/assets/KKCD_Site_Schets_013.png'}
                 alt={'KinderKlimaatConcertDag logo'}
               />
             </Box>
@@ -84,8 +84,8 @@ export const Footer = () => {
                   px={2}
                   _hover={{
                     textDecoration: 'none',
-                    bg: 'blackAlpha.100',
-                    color: 'black',
+                    bg: 'whiteAlpha.200',
+                    color: 'white',
                   }}
                 >
                   {item.label}
@@ -106,8 +106,8 @@ export const Footer = () => {
                   px={2}
                   _hover={{
                     textDecoration: 'none',
-                    bg: 'blackAlpha.100',
-                    color: 'black',
+                    bg: 'whiteAlpha.200',
+                    color: 'white',
                   }}
                 >
                   {item.label}

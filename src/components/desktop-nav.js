@@ -23,11 +23,11 @@ export const DesktopNav = ({ navItems, ...props }) => {
                 fontWeight={'bold'}
                 whiteSpace={'nowrap'}
                 flexShrink={0}
-                color='black'
+                color='white'
                 _hover={{
                   textDecoration: 'none',
-                  bg: 'blackAlpha.100',
-                  color: 'black',
+                  bg: 'whiteAlpha.200',
+                  color: 'white',
                 }}
                 borderRadius='md'
               >
@@ -40,7 +40,7 @@ export const DesktopNav = ({ navItems, ...props }) => {
                 border={0}
                 boxShadow={'xl'}
                 // eslint-disable-next-line react-hooks/rules-of-hooks
-                bg={'#eec216'}
+                bg={'black'}
                 p={4}
                 rounded={'xl'}
                 w='fit-content'
@@ -70,18 +70,18 @@ const DesktopSubNav = ({ label, href, subLabel }) => {
       rounded={'md'}
       _hover={{
         textDecoration: 'none',
-        bg: 'blackAlpha.100',
+        bg: 'whiteAlpha.200',
       }}
     >
       <Stack direction={'row'} align={'center'}>
         <Box>
           <Text
             transition={'all .3s ease'}
-            _groupHover={{ color: 'black' }}
+            _groupHover={{ color: 'white' }}
             fontFamily={'heading'}
             fontSize={'sm'}
             fontWeight={500}
-            color='black'
+            color='white'
           >
             {label}
           </Text>
