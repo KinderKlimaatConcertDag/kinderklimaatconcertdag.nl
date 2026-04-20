@@ -27,16 +27,13 @@ export const Editie2026 = () => {
               Avondvoorstelling
             </Heading>
             <Text as='span' textStyle={'paragraphBlock'}>
-              Tijdens de avondvoorstelling “Behoud onze seizoenen!” zorgen muziek en kunst gemaakt door kinderen en jongeren voor een bruisende, ontroerende en virtuoze avond.
+              Tijdens de avondvoorstelling “Behoud onze seizoenen!” zorgen muziek en kunst van kinderen en jongeren voor een bruisende, ontroerende en virtuoze reis langs de vier seizoenen: van winterkou tot zwoele zomer en wervelende herfst.
             </Text>
             <Text as='span' textStyle={'paragraphBlock'}>
-              Je wordt meegenomen van de bittere kou in de winter naar de eerste zonnige lentedag, en van een zwoele zomeravond naar de wervelende herfstwind. Diverse stijlen en bezettingen wisselen elkaar af en zorgen voor een veelzijdig en toegankelijk programma.
+              Vragen van jongeren over het klimaat, vooraf verzameld met de KlimaatHelpdesk, vormen de rode draad. Kinderen stellen deze live aan wetenschappers van de Universiteit Utrecht, zodat hun belevingswereld en wetenschappelijke kennis elkaar direct ontmoeten.
             </Text>
             <Text as='span' textStyle={'paragraphBlock'}>
-              Een bijzondere rol is weggelegd voor de vragen van jongeren. In samenwerking met de KlimaatHelpdesk worden deze vooraf verzameld en vormen ze de inhoudelijke rode draad van de voorstelling. Tijdens het concert worden geselecteerde vragen live gesteld door kinderen en beantwoord door wetenschappers van de Universiteit Utrecht. Zo ontstaat een directe ontmoeting tussen de belevingswereld van jongeren en wetenschappelijke kennis.
-            </Text>
-            <Text as='span' textStyle={'paragraphBlock'}>
-              Ook beeldende kunst maakt deel uit van het programma. Via onze tekenwedstrijd worden basisschoolleerlingen gevraagd hun favoriete seizoen te tekenen. Een selectie van deze tekeningen wordt tijdens het concert geprojecteerd en vormt een visuele laag die de muziek versterkt.
+              Basisschoolleerlingen tekenen hun favoriete seizoen; een selectie vormt als projectie een visuele laag bij het concert.
             </Text>
           </Box>
           <Box flex={1}>
@@ -44,10 +41,10 @@ export const Editie2026 = () => {
               Onderzoek
             </Heading>
             <Text as='span' textStyle={'paragraphBlock'}>
-              Na afloop verplaatst het programma zich naar foyer De Punt. Hier presenteren middelbare scholieren uit de regio Utrecht, via U-Talent, hun eigen onderzoek naar klimaatvraagstukken. In deze informele setting gaan zij in gesprek met beleidsmakers, wetenschappers en andere aanwezigen.
+              Na afloop presenteren middelbare scholieren uit de regio Utrecht via U-Talent hun onderzoek naar klimaatvraagstukken en gaan in gesprek met beleidsmakers, wetenschappers en publiek.
             </Text>
             <Text as='span' textStyle={'paragraphBlock'}>
-              De Kinder Klimaat Concert Dag brengt zo verschillende generaties en perspectieven samen in een gedeelde ervaring waarin luisteren, ontmoeten en reflectie centraal staan.
+              De Kinder Klimaat Concert Dag verbindt zo generaties rond luisteren, ontmoeten en reflectie.
             </Text>
           </Box>
         </Box>
