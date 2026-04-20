@@ -1,4 +1,4 @@
-name: Deploy to GitHub Pages
+name: Deploy
 
 on:
   push:
@@ -8,17 +8,21 @@ on:
     branches: [main]
   workflow_dispatch:
 
+# Production deploy uses GitHub Pages API
 permissions:
-  contents: write
+  contents: read
+  pages: write
+  id-token: write
   pull-requests: write
 
 concurrency:
-  group: pages-${{ github.head_ref || github.ref }}
+  group: deploy-${{ github.head_ref || github.ref }}
   cancel-in-progress: true
 
 jobs:
-  build:
-    if: github.event.action != 'closed'
+  # ── Production: main → kinderklimaatconcertdag.nl (GitHub Pages) ──
+  build-production:
+    if: github.event_name != 'pull_request'
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -33,8 +37,7 @@ jobs:
       - name: Restore cache
         uses: actions/cache@v4
         with:
-          path: |
-            .next/cache
+          path: .next/cache
           key: ${{ runner.os }}-nextjs-${{ hashFiles('**/package-lock.json', '**/yarn.lock') }}-${{ hashFiles('**.[jt]s', '**.[jt]sx') }}
           restore-keys: |
             ${{ runner.os }}-nextjs-${{ hashFiles('**/package-lock.json', '**/yarn.lock') }}-
@@ -42,67 +45,91 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Build with Next.js
+      - name: Build
         run: npm run build
-        env:
-          BASE_PATH: ${{ github.event_name == 'pull_request' && format('/pr-preview/pr-{0}', github.event.pull_request.number) || '' }}
 
-      - name: Upload artifact
-        uses: actions/upload-artifact@v4
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
         with:
-          name: build-output
           path: ./out
 
   deploy-production:
     if: github.event_name != 'pull_request'
     runs-on: ubuntu-latest
-    needs: build
+    needs: build-production
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-
-      - name: Download artifact
-        uses: actions/download-artifact@v4
-        with:
-          name: build-output
-          path: ./out
-
-      - name: Add CNAME
-        run: cp CNAME ./out/CNAME
-
       - name: Deploy to GitHub Pages
-        uses: JamesIves/github-pages-deploy-action@v4
-        with:
-          folder: out
-          clean-exclude: pr-preview
+        id: deployment
+        uses: actions/deploy-pages@v4
 
+  # ── PR Preview: PRs → kkcd-pr-<N>.surge.sh ──
   deploy-preview:
     if: github.event_name == 'pull_request' && github.event.action != 'closed' && github.event.pull_request.head.repo.full_name == github.repository
     runs-on: ubuntu-latest
-    needs: build
     steps:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Download artifact
-        uses: actions/download-artifact@v4
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
         with:
-          name: build-output
-          path: ./out
+          node-version: '20'
+          cache: 'npm'
 
-      - name: Deploy PR preview
-        uses: rossjrw/pr-preview-action@v1
+      - name: Restore cache
+        uses: actions/cache@v4
         with:
-          source-dir: ./out
+          path: .next/cache
+          key: ${{ runner.os }}-nextjs-${{ hashFiles('**/package-lock.json', '**/yarn.lock') }}-${{ hashFiles('**.[jt]s', '**.[jt]sx') }}
+          restore-keys: |
+            ${{ runner.os }}-nextjs-${{ hashFiles('**/package-lock.json', '**/yarn.lock') }}-
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build
+        run: npm run build
+
+      - name: Install Surge
+        run: npm install -g surge
+
+      - name: Deploy to Surge
+        run: surge ./out kkcd-pr-${{ github.event.pull_request.number }}.surge.sh --token ${{ secrets.SURGE_TOKEN }}
+
+      - name: Comment preview URL on PR
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const url = `https://kkcd-pr-${{ github.event.pull_request.number }}.surge.sh`;
+            const body = `🔗 **Preview deployed:** ${url}`;
+            const { data: comments } = await github.rest.issues.listComments({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+            });
+            const existing = comments.find(c => c.body.includes('Preview deployed:'));
+            if (existing) {
+              await github.rest.issues.updateComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                comment_id: existing.id,
+                body,
+              });
+            } else {
+              await github.rest.issues.createComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: context.issue.number,
+                body,
+              });
+            }
 
   cleanup-preview:
     if: github.event_name == 'pull_request' && github.event.action == 'closed'
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-
-      - name: Cleanup PR preview
-        uses: rossjrw/pr-preview-action@v1
-        with:
-          source-dir: .
+      - name: Teardown Surge preview
+        run: npx surge teardown kkcd-pr-${{ github.event.pull_request.number }}.surge.sh --token ${{ secrets.SURGE_TOKEN }}
