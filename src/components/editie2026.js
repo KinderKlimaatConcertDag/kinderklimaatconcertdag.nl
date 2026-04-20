@@ -24,22 +24,25 @@ export const Editie2026 = () => {
         <Box display='flex' flexDirection={{ base: 'column', md: 'row' }} gap={{ base: 4, md: 8 }} py={5}>
           <Box flex={1}>
             <Heading as='h2' size='xl' mt={0} mb={4} color='#6f73b2'>
-              Avondvoorstelling
+              Concert
             </Heading>
             <Text as='span' textStyle={'paragraphBlock'}>
               Tijdens de avondvoorstelling “Behoud onze seizoenen!” zorgen muziek en kunst van kinderen en jongeren voor een bruisende, ontroerende en virtuoze reis langs de vier seizoenen: van winterkou tot zwoele zomer en wervelende herfst.
             </Text>
             <Text as='span' textStyle={'paragraphBlock'}>
-              Vragen van jongeren over het klimaat, vooraf verzameld met de KlimaatHelpdesk, vormen de rode draad. Kinderen stellen deze live aan wetenschappers van de Universiteit Utrecht, zodat hun belevingswereld en wetenschappelijke kennis elkaar direct ontmoeten.
+              Basisschoolleerlingen tekenen hun favoriete seizoen; een selectie vormt als projectie een visuele laag bij het concert.
             </Text>
             <Text as='span' textStyle={'paragraphBlock'}>
-              Basisschoolleerlingen tekenen hun favoriete seizoen; een selectie vormt als projectie een visuele laag bij het concert.
+              Binnenkort maken we bekend wie er komen spelen.
             </Text>
           </Box>
           <Box flex={1}>
             <Heading as='h2' size='xl' mt={0} mb={4} color='#6f73b2'>
-              Onderzoek
+              Klimaat
             </Heading>
+            <Text as='span' textStyle={'paragraphBlock'}>
+              Vragen van jongeren over het klimaat, vooraf verzameld met de KlimaatHelpdesk, vormen de rode draad. Kinderen stellen deze live aan wetenschappers van de Universiteit Utrecht, zodat hun belevingswereld en wetenschappelijke kennis elkaar direct ontmoeten.
+            </Text>
             <Text as='span' textStyle={'paragraphBlock'}>
               Na afloop presenteren middelbare scholieren uit de regio Utrecht via U-Talent hun onderzoek naar klimaatvraagstukken en gaan in gesprek met beleidsmakers, wetenschappers en publiek.
             </Text>
