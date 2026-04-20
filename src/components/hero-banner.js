@@ -10,7 +10,7 @@ export const HeroBanner = () => {
             src={'/assets/KKCD_Site_Schets_01.png'}
             alt='Kinder Klimaat Concert Dag'
             w='100%'
-            h={{ base: '200px', md: 'auto' }}
+            h={{ base: '280px', md: 'auto' }}
             objectFit='cover'
           />
           <Text
@@ -18,7 +18,7 @@ export const HeroBanner = () => {
             top='50%'
             left='50%'
             transform='translate(-50%, -50%)'
-            fontSize={{ base: '2xl', md: '5xl', lg: '7xl' }}
+            fontSize={{ base: '5xl', lg: '7xl' }}
             fontFamily={'heading'}
             fontWeight='bold'
             color='white'
@@ -36,7 +36,7 @@ export const HeroBanner = () => {
           <Image
             src='/assets/KKCD_Site_Schets_014.png'
             alt='Kinder Klimaat Concert Dag'
-            w={{ base: '400px', sm: '400px' }}
+            w={{ base: '300px'}}
             mt={{ base: '60px', md: '80px' }}
           />
           <Box display='flex' gap={{ base: 4, md: 8 }} alignItems='flex-start' minW={0}>
