@@ -66,7 +66,7 @@ export const Mijlpalen = () => {
             <Text as='h3' fontFamily='heading' fontWeight='bold' fontSize='2xl' color='#eec216' mb={1}>
               Najaar 2025
             </Text>
-            <Link isExternal href='https://www.voordekunst.nl/projecten/20033-kinder-klimaat-concert-dag'>Crowdfunding bij platform Voordekunst</Link> wordt een groot succes.
+            <Link isExternal href='https://www.voordekunst.nl/projecten/20033-kinder-klimaat-concert-dag'>Crowdfunding bij platform Voordekunst</Link> is een groot succes.
           </ListItem>
           <ListItem borderTop='10px solid white' pt={3}>
             <Text as='h3' fontFamily='heading' fontWeight='bold' fontSize='2xl' color='#eec216' mb={1}>
@@ -78,13 +78,19 @@ export const Mijlpalen = () => {
             <Text as='h3' fontFamily='heading' fontWeight='bold' fontSize='2xl' color='#eec216' mb={1}>
               December 2025
             </Text>
-            De organisatie wordt uitgebreid met marketeer <Link href='overons#tim-treffers'>Tim Treffers</Link> en fondsenwerver <Link href='overons#maartje-valk'>Maartje Valk</Link>.
+            Het team wordt uitgebreid met marketeer <Link href='overons#tim-treffers'>Tim Treffers</Link> en fondsenwerver <Link href='overons#maartje-valk'>Maartje Valk</Link>.
           </ListItem>
           <ListItem borderTop='10px solid white' pt={3}>
             <Text as='h3' fontFamily='heading' fontWeight='bold' fontSize='2xl' color='#eec216' mb={1}>
               Januari 2026
             </Text>
             Nominatie voor de <Link isExternal href='https://youngimpact.nl/nominees/donna-luna-van-leeuwen/'>Young Impact Award 2026</Link> in de categorie Klimaat.
+          </ListItem>
+          <ListItem borderTop='10px solid white' pt={3}>
+            <Text as='h3' fontFamily='heading' fontWeight='bold' fontSize='2xl' color='#eec216' mb={1}>
+              April 2026
+            </Text>
+            Winst van de <Link href='resources#young-impact-award-2026'>Young Impact Award 2026</Link> in de categorie Klimaat.
           </ListItem>
         </UnorderedList>
 
