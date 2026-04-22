@@ -79,7 +79,6 @@ export const Footer = () => {
                   key={item.label}
                   href={item.href}
                   fontSize={'sm'}
-                  fontFamily={'Neue Haas Grotesk'}
                   borderRadius='md'
                   px={2}
                   _hover={{
@@ -101,7 +100,6 @@ export const Footer = () => {
                   key={item.label}
                   href={item.href}
                   fontSize={'sm'}
-                  fontFamily={'Neue Haas Grotesk'}
                   borderRadius='md'
                   px={2}
                   _hover={{

@@ -3,7 +3,7 @@ import { theme } from '@chakra-ui/theme'
 import '@fontsource-variable/inter'
 
 const fonts = {
-  body: "'Inter Variable', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+  body: "'Neue Haas Grotesk', 'Inter Variable', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
   heading: "'Champ Black', 'Inter Variable', 'Work Sans', system-ui, sans-serif",
 }
 
@@ -38,7 +38,7 @@ export const customTheme = extendTheme(
           {
             fontFamily: 'Neue Haas Grotesk',
             src: "url('/fonts/NeueHaasDisplayRoman.ttf') format('truetype')",
-            fontWeight: '900',
+            fontWeight: '400',
             fontStyle: 'normal',
             fontDisplay: 'swap',
           },
