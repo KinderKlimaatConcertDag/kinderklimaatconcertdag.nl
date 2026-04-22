@@ -1,4 +1,4 @@
-import { Box, Container, Image, Link, Grid, GridItem, Tooltip } from '@chakra-ui/react'
+import { Box, Container, Image, Link, Grid, GridItem, Tooltip, Divider } from '@chakra-ui/react'
 import { Heading } from '@/components/mdx'
 import { Partners as data } from '@/data/partners'
 import React from 'react'
@@ -11,6 +11,7 @@ export const Partners = () => {
         <Heading as='h1' size='xl' textAlign='center' color='#6f73b2'>
           Partners
         </Heading>
+        <Divider borderColor='black.200' />
 
         <Box my={8}>
 
