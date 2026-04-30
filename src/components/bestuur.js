@@ -171,7 +171,7 @@ export const Bestuur = () => {
                 </Link>
               </Heading>
               <Text as='span' textStyle={'paragraphBlock'}>
-                Anja is hoogleraar Music Information Computing.
+                Anja is hoogleraar Music Information Computing aan de <Link isExternal href='https://www.uu.nl/staff/AVolk'>Universiteit Utrecht</Link>. Ze verbindt haar liefde voor muziek en informatica om de fundamentele rol van muziek in ons leven te ontsluiten. Als lid van de programmacommissie van <Link isExternal href='https://www.uu.nl/onderzoek/dynamics-of-youth'>Dynamics of Youth</Link> onderzoekt ze de rol van muziek voor de ontwikkeling van kinderen en jeugd.
               </Text>
             </Box>
           </Box>
