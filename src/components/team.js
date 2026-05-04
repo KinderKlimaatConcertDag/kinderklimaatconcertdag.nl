@@ -77,26 +77,40 @@ export const Team = () => {
           </Box>
         </Box>
 
-        <Heading as='h2' size='xl' id='maartje-valk'>
-            Maartje Valk
-        </Heading>
-        <Heading as='h3' size='l'>
-          Zakelijk advies en fondsenwerving
-        </Heading>
-        <Text as='span' textStyle={'paragraphBlock'}>
-          Maartje geeft zakelijk advies en is verantwoordelijk voor fondsenwerving van de Kinder Klimaat Concert Dag 2026. Daarnaast is ze zakelijk leider van het Bachfestival Dordrecht en programmamanager van het Blockbusterfonds.
-        </Text>
-        <Heading as='h2' size='xl' id='tim-treffers'>
-            Tim Treffers
-        </Heading>
-        <Heading as='h3' size='l'>
-          Communicatie
-        </Heading>
-        <Text as='span' textStyle={'paragraphBlock'}>
-          Tim is verantwoordelijk voor communicatie rond de Kinder Klimaat Concert Dag 2026.
-        </Text>
-
         <Box py={5}>
+          <Box display='flex' flexDirection={{ base: 'column', md: 'row-reverse' }} alignItems='flex-start' gap={6}>
+            <Image
+              src='/team/MaartjeValk.jpg'
+              alt='Maartje Valk'
+              w={{ base: '100%', md: '220px' }}
+              maxW={{ base: '200px', md: '180px' }}
+              borderRadius='lg'
+              boxShadow='md'
+              flexShrink={0}
+            />
+            <Box>
+              <Heading as='h2' size='xl' id='maartje-valk'>
+                  Maartje Valk
+              </Heading>
+              <Heading as='h3' size='l'>
+                Zakelijk advies en fondsenwerving
+              </Heading>
+              <Text as='span' textStyle={'paragraphBlock'}>
+                Maartje geeft als freelance adviseur zakelijk advies en begeleidt de stichting Kinder Klimaat Concert Dag bij de fondsenwerving voor de eerste editie. Daarnaast is ze zakelijk leider van het Bachfestival Dordrecht en programmamanager van het Blockbusterfonds.
+              </Text>
+            </Box>
+          </Box>
+
+          <Heading as='h2' size='xl' id='tim-treffers'>
+              Tim Treffers
+          </Heading>
+          <Heading as='h3' size='l'>
+            Communicatie
+          </Heading>
+          <Text as='span' textStyle={'paragraphBlock'}>
+            Tim is verantwoordelijk voor communicatie rond de Kinder Klimaat Concert Dag 2026.
+          </Text>
+
           <Box display='flex' flexDirection={{ base: 'column', md: 'row-reverse' }} alignItems='flex-start' gap={6}>
             <Image
               src='/team/WijnandHonig.jpeg'
