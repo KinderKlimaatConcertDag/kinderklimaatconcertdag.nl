@@ -101,15 +101,29 @@ export const Team = () => {
             </Box>
           </Box>
 
-          <Heading as='h2' size='xl' id='tim-treffers'>
-              Tim Treffers
-          </Heading>
-          <Heading as='h3' size='l'>
-            Communicatie
-          </Heading>
-          <Text as='span' textStyle={'paragraphBlock'}>
-            Tim is verantwoordelijk voor communicatie rond de Kinder Klimaat Concert Dag 2026.
-          </Text>
+
+          <Box display='flex' flexDirection={{ base: 'column', md: 'row-reverse' }} alignItems='flex-start' gap={6}>
+            <Image
+              src='/team/TimTreffers.jpeg'
+              alt='Tim Treffers'
+              w={{ base: '100%', md: '220px' }}
+              maxW={{ base: '200px', md: '180px' }}
+              borderRadius='lg'
+              boxShadow='md'
+              flexShrink={0}
+            />
+            <Box>
+              <Heading as='h2' size='xl' pb={0} pt={0} mt={0} id='tim-treffers'>
+                Tim Treffers
+              </Heading>
+              <Heading as='h3' size='l'>
+                Communicatie
+              </Heading>
+              <Text as='span' textStyle={'paragraphBlock'}>
+                Tim Treffers (1988) doet zowel PR als productie in de creatieve sector. Hij werkt voor onder andere het Koninklijk Conservatorium Den Haag en verschillende theatergezelschappen zoals Dood Paard en Theaterstraat. Daarnaast bracht hij als zanger 3 albums uit in Japan en is hij als schrijver verantwoordelijk voor de boeken 'Polderpower: vrouwen in de nederpop' (2025) en 'Chez Manfred' (2026) over het leven van queericoon Manfred Langer.
+              </Text>
+            </Box>
+          </Box>
 
           <Box display='flex' flexDirection={{ base: 'column', md: 'row-reverse' }} alignItems='flex-start' gap={6}>
             <Image
