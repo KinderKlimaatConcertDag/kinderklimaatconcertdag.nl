@@ -41,8 +41,8 @@ export const HeroBanner = () => {
           />
           <Box display='flex' gap={{ base: 4, md: 8 }} alignItems='flex-start' minW={0}>
             <Image
-              src='/assets/KKCD_Site_Schets_012.png'
-              alt='EDITIE #1 - ZO 27 SEP 2026 - TivoliVredenburg Utrecht'
+              src='/assets/vignet_11okt.png'
+              alt='EDITIE #1 - ZO 11 OKT 2026 - TivoliVredenburg Utrecht'
               w={{ base: '60%', md: '300px' }}
               maxW='300px'
               flexShrink={1}
