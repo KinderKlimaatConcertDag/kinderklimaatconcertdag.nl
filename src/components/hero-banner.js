@@ -1,4 +1,4 @@
-import { Box, Container, Stack, Text } from '@chakra-ui/react'
+import { Box, Container, Text } from '@chakra-ui/react'
 import { Image } from '@/components/mdx'
 
 export const HeroBanner = () => {
@@ -90,24 +90,28 @@ export const HeroBanner = () => {
             </Text>
           </Text>
         </Box>
-        <Text
-          as='a'
-          href='https://www.tivolivredenburg.nl/agenda/87928530/kinder-klimaat-concert-dag-11-10-2026'
-          target='_blank'
-          rel='noopener noreferrer'
-          display='block'
-          textAlign='center'
-          fontFamily='heading'
-          fontWeight='bold'
-          fontSize={{ base: '4xl', md: '6xl' }}
-          color='#6f73b2'
-          textDecoration='underline'
-          mt={6}
-          _hover={{ color: '#4b4f8e' }}
-        >
-          Koop je tickets hier!
-        </Text>
       </Container>
+      <Box bg='#6f73b2' py={{ base: 6, md: 8 }} px={4}>
+        <Container maxW='container.lg'>
+          <Text
+            as='a'
+            href='https://www.tivolivredenburg.nl/agenda/87928530/kinder-klimaat-concert-dag-11-10-2026'
+            target='_blank'
+            rel='noopener noreferrer'
+            display='block'
+            textAlign='center'
+            fontFamily='heading'
+            fontWeight='bold'
+            fontSize={{ base: '4xl', md: '6xl' }}
+            color='#eec216'
+            textDecoration='underline'
+            cursor='pointer'
+            _hover={{ color: '#f7d85c' }}
+          >
+            Koop je tickets hier!
+          </Text>
+        </Container>
+      </Box>
     </Box>
   )
 }
