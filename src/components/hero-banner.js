@@ -40,13 +40,19 @@ export const HeroBanner = () => {
             mt={{ base: '60px', md: '80px' }}
           />
           <Box display='flex' gap={{ base: 4, md: 8 }} alignItems='flex-start' minW={0}>
-            <Image
-              src='/assets/vignet_11okt.png'
-              alt='EDITIE #1 - ZO 11 OKT 2026 - TivoliVredenburg Utrecht'
-              w={{ base: '60%', md: '300px' }}
-              maxW='300px'
-              flexShrink={1}
-            />
+            <a
+              href='https://www.tivolivredenburg.nl/agenda/87928530/kinder-klimaat-concert-dag-11-10-2026'
+              target='_blank'
+              rel='noopener noreferrer'
+              style={{ display: 'inline-block', width: '60%', maxWidth: '300px', flexShrink: 1, cursor: 'pointer', position: 'relative', zIndex: 1 }}
+            >
+              <Image
+                src='/assets/vignet_11okt.png'
+                alt='EDITIE #1 - ZO 11 OKT 2026 - TivoliVredenburg Utrecht'
+                w='100%'
+                cursor='pointer'
+              />
+            </a>
             <Image
               src='/assets/KKCD_Site_Schets_015.png'
               alt='Bij'
@@ -84,7 +90,23 @@ export const HeroBanner = () => {
             </Text>
           </Text>
         </Box>
-
+        <Text
+          as='a'
+          href='https://www.tivolivredenburg.nl/agenda/87928530/kinder-klimaat-concert-dag-11-10-2026'
+          target='_blank'
+          rel='noopener noreferrer'
+          display='block'
+          textAlign='center'
+          fontFamily='heading'
+          fontWeight='bold'
+          fontSize={{ base: '4xl', md: '6xl' }}
+          color='#6f73b2'
+          textDecoration='underline'
+          mt={6}
+          _hover={{ color: '#4b4f8e' }}
+        >
+          Koop je tickets hier!
+        </Text>
       </Container>
     </Box>
   )

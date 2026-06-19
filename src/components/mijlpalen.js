@@ -92,6 +92,12 @@ export const Mijlpalen = () => {
             </Text>
             Winst van de <Link href='resources#young-impact-award-2026'>Young Impact Award 2026</Link> in de categorie Klimaat.
           </ListItem>
+          <ListItem borderTop='10px solid white' pt={3}>
+            <Text as='h3' fontFamily='heading' fontWeight='bold' fontSize='2xl' color='#eec216' mb={1}>
+              Juni 2026
+            </Text>
+            <Link isExternal href='https://www.tivolivredenburg.nl/agenda/87928530/kinder-klimaat-concert-dag-11-10-2026'>Kaartverkoop</Link> voor de eerste editie van de Kinder Klimaat Concert Dag start.
+          </ListItem>
         </UnorderedList>
 
       </Container>
