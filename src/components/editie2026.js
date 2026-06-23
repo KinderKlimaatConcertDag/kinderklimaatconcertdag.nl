@@ -21,7 +21,7 @@ export const Editie2026 = () => {
         </Heading>
         <Divider borderColor='black.200' />
         <Text as='span' textStyle={'paragraphBlock'} mt={4}>
-          Met de Kinder Klimaat Concert Dag creëren we één samenhangende dag voor kinderen én ouders waarin muziek, wetenschap en publieksparticipatie samenkomen. Het programma bestaat uit twee onderdelen op meerdere locaties binnen TivoliVredenburg: een inspirerende muzikale voorstelling in de zaal en een verdiepend publieksprogramma in de foyer.
+          Met de Kinder Klimaat Concert Dag creëren we één samenhangende dag waarin muziek, wetenschap en publieksparticipatie samenkomen. Het programma bestaat uit twee onderdelen op meerdere locaties binnen TivoliVredenburg: een verdiepend publieksprogramma in de foyer en een inspirerende muzikale voorstelling door jongeren in de zaal. Zo vragen ze aandacht rondom dit thema voor een zaal met niet alleen hun families en andere gezinnen, maar ook ander publiek van verschillende generaties met een hart voor het klimaat.
         </Text>
 
         <Box display='flex' flexDirection={{ base: 'column', md: 'row' }} gap={{ base: 4, md: 8 }} py={5}>
