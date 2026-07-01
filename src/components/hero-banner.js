@@ -91,7 +91,7 @@ export const HeroBanner = () => {
           </Text>
         </Box>
       </Container>
-      <Box bg='#6f73b2' py={{ base: 6, md: 8 }} px={4}>
+      <Box bg='#6f73b2' py={{ base: 6, md: 8 }} px={4} id='tickets' scrollMarginTop={'80px'}>
         <Container maxW='container.lg'>
           <Text
             as='a'

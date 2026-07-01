@@ -1,5 +1,6 @@
 export const menuItems = [
   { label: 'Editie 2026', href: '/#editie2026' },
+  { label: 'Tickets', href: '/#tickets' },
   { label: 'Hoe het begon', href: '/#hoehetbegon' },
   { label: 'Mijlpalen', href: '/#mijlpalen' },
   { label: 'Partners', href: '/#partners' },
