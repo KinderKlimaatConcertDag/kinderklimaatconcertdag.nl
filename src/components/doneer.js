@@ -18,7 +18,7 @@ export const Doneer = () => {
       return undefined
     }
 
-    donorboxWidgetRef.current.innerHTML = '<dbox-widget campaign="kinder-klimaat-concert-dag" type="donation_form" enable-auto-scroll="true"></dbox-widget>'
+    donorboxWidgetRef.current.innerHTML = '<dbox-widget campaign="kinder-klimaat-concert-dag" type="donation_form" enable-auto-scroll="true" style="width: 100%; max-inline-size: 425px;"></dbox-widget>'
 
     return () => {
       if (donorboxWidgetRef.current) {
@@ -39,7 +39,7 @@ export const Doneer = () => {
         <Grid
           templateColumns={{
             base: '1fr',
-            md: 'minmax(0, 1fr) minmax(320px, 420px)',
+            md: 'minmax(0, 1fr) minmax(320px, 425px)',
           }}
           gap={{ base: 8, lg: 10 }}
           alignItems='start'
@@ -57,7 +57,7 @@ export const Doneer = () => {
             </Text>
           </GridItem>
           <GridItem display='flex' justifyContent='center'>
-            <Box ref={donorboxWidgetRef} />
+            <Box ref={donorboxWidgetRef} width='100%' maxW='425px' />
           </GridItem>
         </Grid>
         <Divider borderColor='black.200' />
