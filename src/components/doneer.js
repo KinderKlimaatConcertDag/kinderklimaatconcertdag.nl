@@ -39,7 +39,7 @@ export const Doneer = () => {
         <Grid
           templateColumns={{
             base: '1fr',
-            lg: 'minmax(0, 1fr) minmax(320px, 420px)',
+            md: 'minmax(0, 1fr) minmax(320px, 420px)',
           }}
           gap={{ base: 8, lg: 10 }}
           alignItems='start'
@@ -56,7 +56,7 @@ export const Doneer = () => {
               Onze dank is groot!
             </Text>
           </GridItem>
-          <GridItem>
+          <GridItem display='flex' justifyContent='center'>
             <Box ref={donorboxWidgetRef} />
           </GridItem>
         </Grid>
