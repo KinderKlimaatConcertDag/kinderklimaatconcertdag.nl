@@ -3,6 +3,7 @@ export const menuItems = [
   { label: 'Tickets', href: '/#tickets' },
   { label: 'Hoe het begon', href: '/#hoehetbegon' },
   { label: 'Mijlpalen', href: '/#mijlpalen' },
+  { label: 'Doneer', href: '/#doneer' },
   { label: 'Partners', href: '/#partners' },
   {
     label: 'Media',
