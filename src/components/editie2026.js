@@ -30,7 +30,7 @@ export const Editie2026 = () => {
               Concert
             </Heading>
             <Text as='span' textStyle={'paragraphBlock'}>
-              Tijdens de avondvoorstelling “Behoud onze seizoenen!” word je meegenomen in een bruisende, ontroerende en virtuoze reis langs de vier seizoenen: van winterkou tot zwoele zomer en wervelende herfst.
+              Tijdens de middagvoorstelling “Behoud onze seizoenen!” word je meegenomen in een bruisende, ontroerende en virtuoze reis langs de vier seizoenen: van winterkou tot zwoele zomer en wervelende herfst.
             </Text>
             <Text as='span' textStyle={'paragraphBlock'}>
               Jonge musici van circa 10 tot 25 jaar staan centraal en treden op in wisselende bezettingen. Veel van hen zijn verbonden aan onze partnerorganisaties, de Nationale JeugdOrkesten Nederland, en de Jong talentafdeling van het Koninklijk Conservatorium Den Haag.
@@ -40,7 +40,7 @@ export const Editie2026 = () => {
               <Link href='https://www.instagram.com/kobusjansenn/' isExternal textDecoration='underline'>
                 Kindercomponist des Vaderlands Kobus Jansen
               </Link>{' '}
-              (16) voor dit concert speciaal een compositie schrijven, die op deze avond voor het eerst te horen is.
+              (16) voor dit concert speciaal een compositie schrijven, die op deze middag voor het eerst te horen is.
             </Text>
           </Box>
           <Box flex={1}>
