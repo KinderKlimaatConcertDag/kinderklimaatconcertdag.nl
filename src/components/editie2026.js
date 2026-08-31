@@ -21,51 +21,64 @@ export const Editie2026 = () => {
         </Heading>
         <Divider borderColor='black.200' />
         <Text as='span' textStyle={'paragraphBlock'} mt={4}>
-          Met de Kinder Klimaat Concert Dag creëren we één samenhangende dag waarin muziek, wetenschap en publieksparticipatie samenkomen. Het programma bestaat uit twee onderdelen op meerdere locaties binnen TivoliVredenburg: een verdiepend publieksprogramma in de foyer en een inspirerende muzikale voorstelling door jongeren in de zaal. Zo vragen ze aandacht rondom dit thema voor een zaal met niet alleen hun families en andere gezinnen, maar ook ander publiek van verschillende generaties met een hart voor het klimaat.
+          De eerste kinderklimaat concert dag wordt afgetrapt met <Text as='strong' fontWeight='bold'>de wervelende middagvoorstelling</Text>
         </Text>
-
+        <Heading as='h2' size='xl' mt={8} mb={4} color='#6f73b2' textAlign='center'>
+          "Behoud onze seizoenen"
+        </Heading>
         <Box display='flex' flexDirection={{ base: 'column', md: 'row' }} gap={{ base: 4, md: 8 }} py={5}>
           <Box flex={1}>
             <Heading as='h2' size='xl' mt={0} mb={4} color='#6f73b2'>
               Concert
             </Heading>
             <Text as='span' textStyle={'paragraphBlock'}>
-              Tijdens de middagvoorstelling “Behoud onze seizoenen!” word je meegenomen in een bruisende, ontroerende en virtuoze reis langs de vier seizoenen: van winterkou tot zwoele zomer en wervelende herfst.
+              <Text as='strong' fontWeight='bold'>Meer dan 80 toptalenten</Text> brengen op het podium de 4 seizoenen tot leven. Dansend, zingend en trommelend. Van ontroerende Piazzolla tot swingende jazz en van virtuoze Vivaldi tot de première van het nieuwste stuk van de kindercomponist des vaderland. <Text as='strong' fontWeight='bold'>Meer dan 500 kinderen</Text> zorgen voor een kleurrijk beeld met de tekeningen die zij maakten over de seizoenen.
             </Text>
             <Text as='span' textStyle={'paragraphBlock'}>
-              Jonge musici van circa 10 tot 25 jaar staan centraal en treden op in wisselende bezettingen. Veel van hen zijn verbonden aan onze partnerorganisaties, de Nationale JeugdOrkesten Nederland, en de Jong talentafdeling van het Koninklijk Conservatorium Den Haag.
+              Als inleiding op elk seizoen stellen kinderen vragen op het podium die hen bezighoudt. Zij krijgen op begrijpelijke wijze uitleg van Professor Erik van Sebille van de Universiteit Utrecht.
             </Text>
             <Text as='span' textStyle={'paragraphBlock'}>
-              Door muziek uit verschillende periodes en stijlen te combineren, ontstaat een veelzijdig geheel. Zo mogen de Vier Jaargetijden van Vivaldi natuurlijk niet ontbreken, maar wat dacht je bijvoorbeeld ook van het minder bekende Winter van Astor Piazzolla of Gershwin's Summertime uit Porgy and Bess? Daarnaast gaat de {' '}
-              <Link href='https://www.instagram.com/kobusjansenn/' isExternal textDecoration='underline'>
-                Kindercomponist des Vaderlands Kobus Jansen
-              </Link>{' '}
-              (16) voor dit concert speciaal een compositie schrijven, die op deze middag voor het eerst te horen is.
+              <Text as='strong' fontWeight='bold'>De sfeer is optimistisch met een urgente ondertoon!</Text>
+            </Text>
+            <Text as='span' textStyle={'paragraphBlock'}>
+              <Text as='strong' fontWeight='bold'>Een belevenis voor iedereen van 7 tot 107.</Text>
             </Text>
           </Box>
           <Box flex={1}>
             <Heading as='h2' size='xl' mt={0} mb={4} color='#6f73b2'>
-              Publieksprogramma
+              Foyer
             </Heading>
             <Text as='span' textStyle={'paragraphBlock'}>
-              Tijdens de Kinder Klimaat Concert Dag is er heel veel ruimte voor publieksparticipatie. Er kunnen vragen worden gesteld bij de{' '}
-              <Link href='https://klimaathelpdesk.org/' isExternal textDecoration='underline'>
-                KlimaatHelpdesk
-              </Link>
-              , waarbij wetenschappers van de Universiteit Utrecht antwoord geven. Op deze manier ontmoeten hun belevingswereld en wetenschappelijke kennis elkaar.
+              Na afloop is er ruimte voor <Text as='strong' fontWeight='bold'>ontmoeting en gesprek</Text>. Tussen het publiek en de kinderen op het podium, tussen generaties en tussen stakeholders uit de energietransitie en wetenschappers.
+              Onder de gasten worden mensen uit het bankwezen, bedrijfsleven, politiek, bestuur en universiteiten verwacht.
             </Text>
             <Text as='span' textStyle={'paragraphBlock'}>
-              Er is ook een tekenwedstrijd, waarbij kinderen niet alleen hun favoriete seizoen gaan tekenen, maar ook worden gestimuleerd na te denken over wat zij mooi vinden aan de seizoenen, wat er mogelijk verandert en welke vragen of zorgen dat oproept. Tijdens dit proces ontvangen zij op een laagdrempelige manier informatie over natuur en seizoensverandering, passend bij hun leeftijd. De vragen en beelden die hieruit ontstaan krijgen een zichtbare plek binnen het programma. De tekeningen zijn vervolgens te zien in TivoliVredenburg, en de winnende tekeningen per seizoen worden geprojecteerd tijdens het concert. Al voor de dag zelf zijn er op tal van basisscholen in Nederland al tekeningen gemaakt ter voorbereiding op de dag, die op deze dag te zien zullen zijn.
+              Middelbare scholieren uit het <Text as='strong' fontWeight='bold'>U-talent programma</Text> (bèta-excellentie programma van de Universiteit Utrecht) presenteren hun eigen onderzoek waarbij het klimaat een rol speelt.
             </Text>
             <Text as='span' textStyle={'paragraphBlock'}>
-              Na afloop presenteren middelbare scholieren uit de regio Utrecht hun onderzoek naar klimaatvraagstukken en gaan in gesprek met beleidsmakers, wetenschappers en publiek. Dit wordt mogelijk gemaakt door{' '}
-              <Link href='https://u-talent.nl/' isExternal textDecoration='underline'>
-                U-Talent
-              </Link>
-              , een regionaal netwerk waarin de Universiteit Utrecht, de Hogeschool Utrecht en circa vijftig middelbare scholen samenwerken. De Kinder Klimaat Concert Dag verbindt zo generaties rond luisteren, ontmoeten en reflectie.
+              Stel ze vooral de vragen die je hebt!
+            </Text>
+            <Text as='span' textStyle={'paragraphBlock'}>
+              Kinderen kunnen met stickers aan de slag in een project van een student van de UU.
+            </Text>
+            <Text as='span' textStyle={'paragraphBlock'}>
+              <Text as='em' fontStyle='italic'>En er is nog meer te doen!</Text>
             </Text>
           </Box>
         </Box>
+        <Heading as='h2' size='xl' mt={0} mb={4} color='#6f73b2'>
+          Wie treden er op?
+        </Heading>
+        <Text as='span' textStyle={'paragraphBlock'}>
+          Met onze partners is er een selectie van prijswinnaars van diverse nationale concoursen gemaakt die in verschillende ensembles optreden. Ook treden er (ballet) leerlingen op van de School voor Jong Talent van het Koninklijk Conservatorium: Een slagwerkgroep, hele jonge strijkers en harpisten en een jazz combo. Kindercomponist der Nederlanden Kobus Jansen maakte speciaal voor deze dag een compositie over de lente, met een bijzondere rol voor de contrabas vertolkt door Sasha Witteveen.
+        </Text>
+        <Text as='span' textStyle={'paragraphBlock'}>
+          Kinderen met een vluchtachtergond van <Text as='strong' fontWeight='bold'>Sounds for Freedom</Text> laten zich horen met een eigen <Text as='strong' fontWeight='bold'>Climate Song</Text>.
+        </Text>
+        <Text as='span' textStyle={'paragraphBlock'}>
+          En natuurlijk hoor je Luna (viool) en Donna (cello) zelf!
+        </Text>
+
         <Heading as='h2' size='xl' mt={0} mb={4} color='#6f73b2'>
           Voortraject
         </Heading>
