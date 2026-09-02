@@ -11,60 +11,6 @@ export const Media= () => {
         <Heading as='h1' size='2xl' textAlign={'center'}>
           Media
         </Heading>
-        <Box
-          w='100%'
-          h={{ base: '305px', md: '560px' }}
-          borderRadius='lg'
-          overflow='hidden'
-          boxShadow='md'
-          display='flex'
-          position='relative'
-          bg='#eeeeee'
-        >
-          {!isPlayerLoaded && (
-            <Box
-              as='button'
-              type='button'
-              aria-label='Play video'
-              onClick={() => setIsPlayerLoaded(true)}
-              position='absolute'
-              inset={0}
-              zIndex={1}
-              bgImage='url(/media/video-first-frame.jpg)'
-              bgSize='cover'
-              bgPosition='center'
-              border='0'
-              cursor='pointer'
-            >
-              <Box
-                as='span'
-                position='absolute'
-                left='50%'
-                top='50%'
-                transform='translate(-50%, -50%)'
-                bg='rgba(0, 0, 0, 0.65)'
-                color='white'
-                px={5}
-                py={3}
-                borderRadius='9999px'
-                fontWeight='bold'
-              >
-                Play video
-              </Box>
-            </Box>
-          )}
-          {isPlayerLoaded && (
-            <iframe
-              width='100%'
-              height='100%'
-              style={{ display: 'block', border: 0, backgroundColor: '#eeeeee' }}
-              src='https://player.vimeo.com/video/1133141624?autoplay=1&title=0&byline=0&portrait=0&dnt=1'
-              title='Kinder Klimaat Concert Dag pitch'
-              allow='autoplay; fullscreen; picture-in-picture; encrypted-media'
-              allowFullScreen
-            />
-          )}
-        </Box>
         <Heading as='h2' size='xl' pb={0} pt={20} mt={0} id='young-impact-award-2026' textAlign={'center'}>
           We hebben de Young Impact Award 2026 gewonnen!
         </Heading>

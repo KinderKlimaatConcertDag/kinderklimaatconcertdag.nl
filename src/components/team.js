@@ -32,7 +32,7 @@ export const Team = () => {
                 Oprichter
               </Heading>
               <Text as='span' textStyle={'paragraphBlock'}>
-                Luna, 22 jaar, heeft een passie voor muziek en wil deze passie ook inzetten voor een goed doel. Ze won met haar viool nationale en internationale concoursen en trad al meermalen op in de Grote Zaal van het Concertgebouw. Ze speelde als solist met orkesten in binnen -en buitenland en was al vaak te zien op TV. Na haar Gymnasium Diploma combineerde ze een rechten en een conservatorium studie. Ze werd opgenomen in het nationale Talent Empowerment traject, speciaal voor jonge topmusici en topsporters.
+                Luna, 23 jaar, heeft een passie voor muziek en wil deze passie ook inzetten voor een goed doel. Ze won met haar viool nationale en internationale concoursen en trad al meermalen op in de Grote Zaal van het Concertgebouw. Ze speelde als solist met orkesten in binnen -en buitenland en was al vaak te zien op TV. Na haar Gymnasium Diploma combineerde ze een rechten en een conservatorium studie. Ze werd opgenomen in het nationale Talent Empowerment traject, speciaal voor jonge topmusici en topsporters.
               </Text>
               <Text as='span' textStyle={'paragraphBlock'}>
                 Ze woont in Berlijn, waar ze viool studeert aan de prestieuze Hanns Eisler Hochschule für Musik. Daar is ze ook actief in de studentenraad.
@@ -65,7 +65,7 @@ export const Team = () => {
                 Oprichter
               </Heading>
               <Text as='span' textStyle={'paragraphBlock'}>
-                Donna, 19 jaar heeft een passie voor muziek en wetenschap. Met haar cello won ze prijzen op diverse concoursen en was ze live op tv te zien tijdens het Kinderprinsengrachtconcert. Ook speelde ze op de Nationale Kinderdodenherdenking.  Ze is aanvoerder van de cello groep in het Jeugd Orkest Nederland.
+                Donna, 20 jaar, heeft een passie voor muziek en wetenschap. Met haar cello won ze prijzen op diverse concoursen en was ze live op tv te zien tijdens het Kinderprinsengrachtconcert. Ook speelde ze op de Nationale Kinderdodenherdenking.  Ze is aanvoerder van de cello groep in het Jeugd Orkest Nederland.
               </Text>
               <Text as='span' textStyle={'paragraphBlock'}>
                 Donna woont en studeert in Rotterdam. Daar is ze bezig met een Bachelor economie aan Erasmus University College. Ze heeft plezier in wetenschappelijke uitdagingen en volgde tijdens haar middelbare school het U-talentprogramma van de Universiteit Utrecht.

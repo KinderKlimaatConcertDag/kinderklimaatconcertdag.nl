@@ -12,7 +12,7 @@ export const Contact = () => {
 
         <Box pb={8}>
           <Text fontSize={'lg'}>
-            Bosuillaan 62, 3722XP Bilthoven | Kvk 97261734 | RSIN 867975209 | bank NL83 TRIO 0321 0861 98 | kinderklimaatconcertdag@gmail.com
+            Kvk 97261734 | RSIN 867975209 | bank NL83 TRIO 0321 0861 98 | kinderklimaatconcertdag@gmail.com
           </Text>
         </Box>
 

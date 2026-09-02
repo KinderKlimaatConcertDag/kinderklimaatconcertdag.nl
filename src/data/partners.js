@@ -29,4 +29,16 @@ export const Partners = [
     logo_dark: '/partners-logos/UUlogo_dia.png',
     url: 'https://www.uu.nl',
   },
+  {
+    name: 'Sounds for Freedom',
+    logo_light: '/partners-logos/soundsforfreedom.png',
+    logo_dark: '/partners-logos/soundsforfreedom.png',
+    url: 'https://www.soundsforfreedom.com',
+  },
+  {
+    name: 'Koninklijk Conservatorium Den Haag ',
+    logo_light: '/partners-logos/KC-logo.jpg',
+    logo_dark: '/partners-logos/KC-logo.jpg',
+    url: 'https://www.koncon.nl',
+  },
 ]

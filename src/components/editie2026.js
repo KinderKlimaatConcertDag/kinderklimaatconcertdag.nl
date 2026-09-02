@@ -79,48 +79,6 @@ export const Editie2026 = () => {
           En natuurlijk hoor je Luna (viool) en Donna (cello) zelf!
         </Text>
 
-        <Heading as='h2' size='xl' mt={0} mb={4} color='#6f73b2'>
-          Voortraject
-        </Heading>
-        <Text as='span' textStyle={'paragraphBlock'}>
-          De Kinder Klimaat Concert Dag is meer dan alleen de dag zelf. In ruim een maand voorafgaand aan het evenement doorlopen de deelnemers een inhoudelijk uitdagend en creatief traject. Dit traject heeft tot doel artistieke en persoonlijke groei te stimuleren, evenals de verbinding tussen diverse groepen. De selectie van deelnemers wordt verzorgd door initiatiefnemers Luna en Donna van Leeuwen, in samenwerking met partners binnen talentontwikkeling. Zij stellen een diverse en inclusieve groep samen op basis van motivatie, talent en achtergrond.
-        </Text>
-        <Text as='span' textStyle={'paragraphBlock'}>
-          De deelnemende jonge musici gaan niet alleen artistiek aan de slag, maar doen ook een unieke podiumervaring op als geëngageerd kunstenaar. Tijdens de repetities worden zij voorbereid op hun maatschappelijke rol op het podium: hoe neem je als slagwerker of violist het publiek overtuigend mee? In samenwerking met de{' '}
-          <Link href='https://klimaathelpdesk.org/' isExternal textDecoration='underline'>
-            KlimaatHelpdesk
-          </Link>{' '}
-          worden de jongeren bevraagd over wat klimaatverandering en in het bijzonder de verandering van de seizoenen, voor hen betekent. Ze worden uitgenodigd hun eigen gevoel te verwoorden—zorg, hoop, maar ook ongemak. Wat als je liever niet aan het klimaat wilt denken? Alle input wordt meegenomen en verwerkt in de voorstelling. Zo ontstaat er, onder supervisie van onze creatief producent, een oprechte en authentieke boodschap die een breed spectrum aan
-          emoties bespreekbaar maakt.
-        </Text>
-        <Text as='span' textStyle={'paragraphBlock'}>
-          De kinderen en jongeren van Sounds for Freedom brengen uiteenlopende ervaringen en perspectieven mee, bijvoorbeeld uit landen waar droogte, extreme hitte of overstromingen het dagelijks leven al beïnvloeden.
-        </Text>
-        <Text as='span' textStyle={'paragraphBlock'}>
-          De Kindercomponist der Nederlanden, Kobus Jansen, schrijft speciaal voor de Kinder Klimaat Concert Dag een korte compositie. Ter voorbereiding ontvangt hij vijf coachingsessies van gerenommeerde Nederlandse componisten. De jonge componist schrijft een compositie voor het seizoen "de lente". In een aantal sessies werkt hij stap voor stap aan de verdere ontwikkeling van zijn stuk. Voor Kobus is dit een bijzondere kans om zijn compositievaardigheden en creatieve talenten verder uit te bouwen. Als extra bekroning wordt zijn compositie uitgevoerd in een van de meest toonaangevende concertzalen van Nederland: TivoliVredenburg in Utrecht.
-        </Text>
-        <Text as='span' textStyle={'paragraphBlock'}>
-          Vanaf het begin van het cursusjaar 2026-2027 zullen basisschoolleerlingen van deelnemende scholen uit diverse regio's aan de slag gaan met de KKCD Tekenwedstrijd. Het doel is om kinderen uit alle lagen van de bevolking op een laagdrempelige manier bij het project te betrekken, ongeacht of ze een instrument bespelen of thuis iets meekrijgen over het klimaat. Op school krijgen zij een korte, leeftijdsgerichte uitleg over klimaatverandering, verwerkt in een lespakket dat niet polariserend is, maar juist gericht op oplossingen. De{' '}
-          <Link href='https://klimaathelpdesk.org/' isExternal textDecoration='underline'>
-            KlimaatHelpdesk
-          </Link>{' '}
-          wordt daarbij geïntroduceerd als vraagbaak voor hun vragen.
-        </Text>
-        <Heading as='h3' size='l' mt={0} mb={4} color='#6f73b2'>
-          Repetitieproces
-        </Heading>
-        <Text as='span' textStyle={'paragraphBlock'}>
-          Het repetitieproces bestaat uit meerdere fasen:
-        </Text>
-        <Box as='ol' textStyle={'paragraphBlock'} fontSize='lg' lineHeight='tall' pl={6} mb={5}>
-          <Box as='li' mb={2}>
-            Kleine groepsrepetities (muzikale en inhoudelijke voorbereiding)
-          </Box>
-          <Box as='li' mb={2}>
-            Verdiepende sessies (reflectie op klimaat en persoonlijke verhalen, begeleid door Erik van Sebille en medewerkers van de Universiteit Utrecht)
-          </Box>
-          <Box as='li'>Gezamenlijke repetities op de dag zelf, waarin alle disciplines samenkomen</Box>
-        </Box>
 
       </Container>
     </Box>

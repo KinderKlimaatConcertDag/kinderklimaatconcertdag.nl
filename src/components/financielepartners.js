@@ -1,0 +1,54 @@
+import { Box, Container, Image, Link, Grid, GridItem, Tooltip, Divider } from '@chakra-ui/react'
+import { Heading } from '@/components/mdx'
+import { FinancielePartners as data } from '@/data/financielepartners'
+import React from 'react'
+
+export const FinancielePartners = () => {
+  const partners = React.useMemo(() => data, [])
+  return (
+    <Box id={'financiele-partners'} as='section' scrollMarginTop={'80px'}>
+      <Container maxW='container.lg'>
+        <Heading as='h1' size='xl' textAlign='center' color='#6f73b2'>
+          Financiële Partners
+        </Heading>
+
+        <Box my={8}>
+
+          <Grid
+            templateColumns={{
+              base: '1fr',
+              md: `repeat(${partners.length}, minmax(auto, max-content))`,
+            }}
+            gap={6}
+            my={4}
+            justifyContent='center'
+          >
+            {partners.map((partner, index) => (
+              <Tooltip key={index} label={partner.name}>
+                <GridItem
+                  as={Link}
+                  href={partner.url}
+                  display='flex'
+                  alignItems='center'
+                  justifyContent='center'
+                  borderRight={{
+                    base: 'none',
+                    md: index < partners.length - 1 ? '1px solid #6f73b2' : 'none',
+                  }}
+                  pr={{ base: 0, md: 4 }}
+                  pb={{ base: 4, md: 0 }}
+                >
+                  <Image
+                    src={partner.logo_light}
+                    alt={partner.name}
+                    maxH={20}
+                  />
+                </GridItem>
+              </Tooltip>
+            ))}
+          </Grid>
+        </Box>
+      </Container>
+    </Box>
+  )
+}
