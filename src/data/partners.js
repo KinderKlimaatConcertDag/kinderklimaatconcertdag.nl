@@ -41,4 +41,10 @@ export const Partners = [
     logo_dark: '/partners-logos/KC-logo.jpg',
     url: 'https://www.koncon.nl',
   },
+  {
+    name: 'Stichting Kunst en Cultuur De Bilt',
+    logo_light: '/partners-logos/SKC_logo.png',
+    logo_dark: '/partners-logos/SKC_logo.png',
+    url: 'https://www.skc-debilt.nl',
+  },
 ]

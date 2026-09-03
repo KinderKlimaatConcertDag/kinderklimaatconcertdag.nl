@@ -42,12 +42,6 @@ export const FinancielePartners = [
     url: 'https://www.mensenzijnnatuur.nl',
   },
   {
-    name: 'Stichting Kunst en Cultuur De Bilt',
-    logo_light: '/partners-logos/SKC_logo.png',
-    logo_dark: '/partners-logos/SKC_logo.png',
-    url: 'https://www.skc-debilt.nl',
-  },
-  {
     name: 'Stichting de Boomgaard',
     logo_light: '/partners-logos/Boomgaard-logo.png',
     logo_dark: '/partners-logos/Boomgaard-logo.png',
