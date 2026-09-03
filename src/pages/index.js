@@ -1,6 +1,7 @@
 import { Editie2026, HeroBanner, HoeHetBegon, Mijlpalen, Partners, Doneer, FinancielePartners } from '@/components'
 
 import { Layout } from '@/components/layout'
+import { Nieuwsbrief } from '@/components/nieuwsbrief'
 
 export default function IndexPage() {
   return (
@@ -17,6 +18,7 @@ export default function IndexPage() {
       <HoeHetBegon />
       <Mijlpalen />
       <Doneer />
+      <Nieuwsbrief />
       <Partners />
       <FinancielePartners />
     </Layout>
