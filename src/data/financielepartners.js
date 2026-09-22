@@ -47,4 +47,10 @@ export const FinancielePartners = [
     logo_dark: '/partners-logos/Boomgaard-logo.png',
     url: 'https://www.stichtingdeboomgaard.nl',
   },
+  {
+    name: 'Gravin van Bylandt Stichting',
+    logo_light: '/partners-logos/GvBs_logo_H.jpg',
+    logo_dark: '/partners-logos/GvBs_logo_H.jpg',
+    url: 'https://www.bylandtstichting.nl',
+  },
 ]
