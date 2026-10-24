@@ -17,68 +17,47 @@ export const Editie2026 = () => {
       />
       <Container maxW='container.lg' position='relative' zIndex={1}>
         <Heading as='h1' size='2xl' mt={0} pt={10} mb={4} textAlign='center'>
-          Editie 2026
+          Kinder Klimaat Concert Dag 2026 groot succes
         </Heading>
         <Divider borderColor='black.200' />
+        <Text as='span' fontSize='2xl' fontStyle='italic' textStyle={'paragraphBlock'} mt={4}>
+          "Dit was misschien wel een van de mooiste, aangrijpendste, urgentste, belangrijkste concerten, die ik dit jaar en in mijn hele leven heb meegemaakt."
+          <Text as='span' display='block' mt={2}>
+            (Frank Elderson, directielid Europese Centrale Bank)
+          </Text>
+        </Text>
+        <Divider borderColor='black.200' />
         <Text as='span' textStyle={'paragraphBlock'} mt={4}>
-          De eerste kinderklimaat concert dag wordt afgetrapt met <Text as='strong' fontWeight='bold'>de wervelende middagvoorstelling</Text>
+          11 oktober was het zover: de eerste editie van het Kinder Klimaat Concert Dag vond plaats
+          in Utrecht. Het evenement werd afgetrapt met indrukwekkend slagwerk, wat meteen de toon
+          zette voor een meeslepend concert.
         </Text>
-        <Heading as='h2' size='xl' mt={8} mb={4} color='#6f73b2' textAlign='center'>
-          "Behoud onze seizoenen"
-        </Heading>
-        <Box display='flex' flexDirection={{ base: 'column', md: 'row' }} gap={{ base: 4, md: 8 }} py={5}>
-          <Box flex={1}>
-            <Heading as='h2' size='xl' mt={0} mb={4} color='#6f73b2'>
-              Concert
-            </Heading>
-            <Text as='span' textStyle={'paragraphBlock'}>
-              <Text as='strong' fontWeight='bold'>Meer dan 80 toptalenten</Text> brengen op het podium de 4 seizoenen tot leven. Dansend, zingend en trommelend. Van ontroerende Piazzolla tot swingende jazz en van virtuoze Vivaldi tot de première van het nieuwste stuk van de kindercomponist des vaderland. <Text as='strong' fontWeight='bold'>Meer dan 500 kinderen</Text> zorgen voor een kleurrijk beeld met de tekeningen die zij maakten over de seizoenen.
-            </Text>
-            <Text as='span' textStyle={'paragraphBlock'}>
-              Als inleiding op elk seizoen stellen kinderen vragen op het podium die hen bezighoudt. Zij krijgen op begrijpelijke wijze uitleg van Professor Erik van Sebille van de Universiteit Utrecht.
-            </Text>
-            <Text as='span' textStyle={'paragraphBlock'}>
-              <Text as='strong' fontWeight='bold'>De sfeer is optimistisch met een urgente ondertoon!</Text>
-            </Text>
-            <Text as='span' textStyle={'paragraphBlock'}>
-              <Text as='strong' fontWeight='bold'>Een belevenis voor iedereen van 7 tot 107.</Text>
-            </Text>
-          </Box>
-          <Box flex={1}>
-            <Heading as='h2' size='xl' mt={0} mb={4} color='#6f73b2'>
-              Foyer
-            </Heading>
-            <Text as='span' textStyle={'paragraphBlock'}>
-              Na afloop is er ruimte voor <Text as='strong' fontWeight='bold'>ontmoeting en gesprek</Text>. Tussen het publiek en de kinderen op het podium, tussen generaties en tussen stakeholders uit de energietransitie en wetenschappers.
-              Onder de gasten worden mensen uit het bankwezen, bedrijfsleven, politiek, bestuur en universiteiten verwacht.
-            </Text>
-            <Text as='span' textStyle={'paragraphBlock'}>
-              Middelbare scholieren uit het <Text as='strong' fontWeight='bold'>U-talent programma</Text> (bèta-excellentie programma van de Universiteit Utrecht) presenteren hun eigen onderzoek waarbij het klimaat een rol speelt.
-            </Text>
-            <Text as='span' textStyle={'paragraphBlock'}>
-              Stel ze vooral de vragen die je hebt!
-            </Text>
-            <Text as='span' textStyle={'paragraphBlock'}>
-              Kinderen kunnen met stickers aan de slag in een project van een student van de UU.
-            </Text>
-            <Text as='span' textStyle={'paragraphBlock'}>
-              <Text as='em' fontStyle='italic'>En er is nog meer te doen!</Text>
-            </Text>
-          </Box>
-        </Box>
-        <Heading as='h2' size='xl' mt={0} mb={4} color='#6f73b2'>
-          Wie treden er op?
-        </Heading>
-        <Text as='span' textStyle={'paragraphBlock'}>
-          Met onze partners is er een selectie van prijswinnaars van diverse nationale concoursen gemaakt die in verschillende ensembles optreden. Ook treden er (ballet) leerlingen op van de School voor Jong Talent van het Koninklijk Conservatorium: Een slagwerkgroep, hele jonge strijkers en harpisten en een jazz combo. Kindercomponist der Nederlanden Kobus Jansen maakte speciaal voor deze dag een compositie over de lente, met een bijzondere rol voor de contrabas vertolkt door Sasha Witteveen.
+        <Text as='span' textStyle={'paragraphBlock'} mt={4}>
+          Oprichters Luna en Donna van Leeuwen: "Het is haast onvoorstelbaar hoeveel mensen ons
+          hebben laten weten dat ze gehuild hebben door de muziek, gespeeld door jonge mensen die
+          hoopvol maar ook kwetsbaar zijn. Ook mensen die nooit naar een concert gaan waren
+          geëmotioneerd."
         </Text>
-        <Text as='span' textStyle={'paragraphBlock'}>
-          Kinderen met een vluchtachtergond van <Text as='strong' fontWeight='bold'>Sounds for Freedom</Text> laten zich horen met een eigen <Text as='strong' fontWeight='bold'>Climate Song</Text>.
+        <Text as='span' textStyle={'paragraphBlock'} mt={4}>
+          Er werd op hoog niveau gemusiceerd, waarbij een grote diversiteit aan stijlen langskwam,
+          inclusief een nieuw werk van de Kindercomponist der Nederlanden en het lied "Wat is er aan
+          de hand met mijn land?" van zangers van de stichting Sounds for Freedom.
         </Text>
-        <Text as='span' textStyle={'paragraphBlock'}>
-          En natuurlijk hoor je Luna (viool) en Donna (cello) zelf!
+        <Text as='span' textStyle={'paragraphBlock'} mt={4}>
+          Het thema Behoud onze seizoenen, herkenbaar voor alle leeftijden, zorgde voor verbinding
+          in de zaal. Door vragen van de kinderen als "Komt er ooit nog een Elfstedentocht?" werd
+          laagdrempelig wetenschap betrokken bij het geheel. Professor Erik van Sebille
+          beantwoordde deze vragen en introduceerde zo alle seizoenen.
         </Text>
-
+        <Text as='span' textStyle={'paragraphBlock'} mt={4}>
+          "Wat gaat er mis, en wat is
+          er mogelijk om dit te voorkomen?"
+        </Text>
+        <Text as='span' textStyle={'paragraphBlock'} mt={4}>
+          Zeer enthousiaste reacties waren er ook van de directeur van de Raad voor Cultuur en de
+          secretaris-generaal van het ministerie van Onderwijs, Cultuur en Wetenschap die aanwezig
+          waren. Zij hopen dat er een vervolg zal zijn.
+        </Text>
 
       </Container>
     </Box>
