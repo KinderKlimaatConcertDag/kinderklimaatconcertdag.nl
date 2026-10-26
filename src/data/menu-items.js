@@ -12,8 +12,9 @@ export const menuItems = [
   { label: 'Partners', href: '/#partners' },
   {
     label: 'Media',
-    href: '/resources#media',
+    href: '/resources#fotos2026',
     children: [
+      { label: 'Foto\'s 2026', href: '/resources#fotos2026' },
       { label: 'Media', href: '/resources#media' },
       { label: 'Artwork', href: '/resources#artwork' },
       { label: 'Foto\'s', href: '/resources#fotos' },
